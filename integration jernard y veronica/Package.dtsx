@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="29"
-  DTS:VersionGUID="{A8F006BE-E505-4EDA-8E8A-AD396FFD7ADA}">
+  DTS:VersionBuild="47"
+  DTS:VersionGUID="{0AC74EB9-7AFB-4DC5-BF9E-94A60FED236B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACS1s9zmKv2FIyS3J9Kj5bizbtwIVEaj+chxG4sHrjjWAAAAAAOgAAAAAIAACAAAACZPjaLlx30Z6yD+NasgS/HZ//w7KqMTL+t9RUPXwm9dTAAAAAIlyyqv6Xguh2seKpHkn1FdVRGNIYlO8TH9NhHH3HXkZX8dNElx8HLqe49EVjJTgBAAAAAF/lCkQFb8jnxbbkEINWZJ8BgwmvetLbY2rWwCjQRPOEp002X1VOdh7o1eaDDNfZljJSLYtB5wvUwkfpoyRt9aA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABTUHBSfx5EsjrQvKEn4n4grDoNwjuSbJN9XHJcDC28bAAAAAAOgAAAAAIAACAAAABzeC4fdnGBSc7bKwVXcc34vepoEISdBsMIsPdc3GZe6zAAAADlKydvS/k06HBsehcYGP8ux6wqnxdnwFaI2Bd5tu6WAYOzTpgXfBHVSreqJYZOPAtAAAAAcx+astHaKy2u4sazcp0KLUeQsAdZlGAG98KhjX24BA0sAb241v/7c7xLrRfTSOchuQ0Dr3v5EsGQNCaLMI3hTg</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -62,7 +62,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAPNuTfCSvVlEEFMueulY//1yX2H8eYerVQaxfofWQX3gAAAAAOgAAAAAIAACAAAAAPnBvYJVibPOfL+RxvXjqMFbhOLCY2VstKtS1Q+hmX7zAAAADlE63QfFHmzuDEaSzbAMZ5JNi2942rQvkZJYpFVvXgAOfDInwk1RyrlIIQrOYovUBAAAAApxgtKKiP9mNcpCrp3PIGLfA57TSTAGMXYRjRdGorLlxi82m9j6IajbQA01kKaWHWeJOVINYPt1r4RzVJ0v8s1A</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACa8bsUiNUSP78L6p6/vVsqKja+i51oRxNH6cjwbCp3qQAAAAAOgAAAAAIAACAAAAAkTVt5on1TLgOZDeMzYv3fuORKRZ95CqsTizm+rwF1PTAAAAC6tzS8KALGvCSCp4K38iy/Gp8MMeP/aAqy/6BhKEY2DZKRAdvBTBDFksJI16dR/hFAAAAAQBYFhDzTvcCVZTkcXOkd6TYO/bf3TqPT2+zO09UIpAVSWqGrlx+ZLDD6EJTfbjjKLSsiLmtmyiui+9cwuZ4/1A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -81,6 +81,15 @@
   <DTS:Variables>
     <DTS:Variable
       DTS:CreationName=""
+      DTS:DTSID="{95FEEC86-38A6-4698-8268-425E64FD317C}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="a">
+      <DTS:VariableValue
+        DTS:DataType="8">a</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
       DTS:DTSID="{18D3BC66-EA84-403B-856A-5400885EFD87}"
       DTS:EvaluateAsExpression="True"
       DTS:Expression="GETDATE()"
@@ -88,16 +97,25 @@
       DTS:Namespace="User"
       DTS:ObjectName="CurrentDay">
       <DTS:VariableValue
-        DTS:DataType="7">4/2/2016 11:51:22 AM</DTS:VariableValue>
+        DTS:DataType="7">4/2/2016 3:21:19 PM</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{6185457C-AEFC-4357-91A0-729FC2CC02E0}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="F">
+      <DTS:VariableValue
+        DTS:DataType="8">F</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
       DTS:DTSID="{A7127F6A-011D-4E2D-A0E6-973784C1C506}"
-      DTS:IncludeInDebugDump="6789"
+      DTS:IncludeInDebugDump="2345"
       DTS:Namespace="User"
-      DTS:ObjectName="variable">
+      DTS:ObjectName="M">
       <DTS:VariableValue
-        DTS:DataType="3">0</DTS:VariableValue>
+        DTS:DataType="8">M</DTS:VariableValue>
     </DTS:Variable>
   </DTS:Variables>
   <DTS:Executables>
@@ -719,6 +737,275 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           version="1">
           <components>
             <component
+              refId="Package\Transformacion\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[number]"
+                      cachedDataType="i4"
+                      cachedName="number"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[number]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[givenname]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="givenname"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[surname]"
+                      cachedDataType="wstr"
+                      cachedLength="23"
+                      cachedName="surname"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[surname]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[streetaddress]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="streetaddress"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[streetaddress]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[emailaddress]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="emailaddress"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[emailaddress]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[telephonenumber]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="telephonenumber"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[telephonenumber]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[birthday]"
+                      cachedDataType="wstr"
+                      cachedLength="10"
+                      cachedName="birthday"
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[birthday]" />
+                    <inputColumn
+                      refId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input].Columns[sexo]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="sexo"
+                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[idCliente]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[idCliente]"
+                      name="idCliente"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[number]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new givenname]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new givenname]"
+                      name="new givenname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new surname]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="23"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new surname]"
+                      name="new surname"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[surname]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[newstreetaddress]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[newstreetaddress]"
+                      name="newstreetaddress"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[streetaddress]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new emailaddress]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new emailaddress]"
+                      name="new emailaddress"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[emailaddress]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new telephonenumber]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="20"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new telephonenumber]"
+                      name="new telephonenumber"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[telephonenumber]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new birthday]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new birthday]"
+                      name="new birthday"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[birthday]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new sexo]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="1"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new sexo]"
+                      name="new sexo"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Transformacion\Derived Column"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
@@ -732,38 +1019,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Transformacion\Derived Column.Inputs[Derived Column Input].Columns[telephonenumber]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="telephonenumber"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[telephonenumber]" />
-                    <inputColumn
                       refId="Package\Transformacion\Derived Column.Inputs[Derived Column Input].Columns[givenname]"
                       cachedDataType="wstr"
                       cachedLength="20"
                       cachedName="givenname"
                       lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Transformacion\Derived Column.Outputs[Derived Column Output]"
-                  description="Default Output of the Derived Column Transformation"
-                  exclusionGroup="1"
-                  name="Derived Column Output"
-                  synchronousInputId="Package\Transformacion\Derived Column.Inputs[Derived Column Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[newtelephone]"
-                      dataType="wstr"
+                    <inputColumn
+                      refId="Package\Transformacion\Derived Column.Inputs[Derived Column Input].Columns[telephonenumber]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="telephonenumber"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="20"
-                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[newtelephone]"
-                      name="newtelephone"
-                      truncationRowDisposition="FailComponent">
+                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[telephonenumber]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
                       <properties>
                         <property
                           containsID="true"
@@ -777,28 +1047,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                           expressionType="Notify"
                           name="FriendlyExpression">REPLACE(telephonenumber,"-","")</property>
                       </properties>
-                    </outputColumn>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Transformacion\Derived Column.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\Transformacion\Derived Column.Inputs[Derived Column Input]">
+                  <outputColumns>
                     <outputColumn
-                      refId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo femenino]"
+                      refId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo]"
                       dataType="wstr"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
                       length="20"
-                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo femenino]"
-                      name="sexo femenino"
+                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo]"
+                      name="sexo"
                       truncationRowDisposition="FailComponent">
                       <properties>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">[REPLACE]([RIGHT](#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]},[LEN](#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]})),"a","F")</property>
+                          name="Expression">[REPLACE]([SUBSTRING](#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]},[LEN](#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]}),[LEN](#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]})),"a","F")</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">REPLACE(RIGHT(givenname,LEN(givenname)),"a","F")</property>
+                          name="FriendlyExpression">REPLACE(SUBSTRING(givenname,LEN(givenname),LEN(givenname)),"a","F")</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -824,6 +1106,927 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
                       lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Transformacion\Hombres"
+              componentClassID="Microsoft.ManagedComponentHost"
+              contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;10"
+              description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+              name="Hombres"
+              version="10">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Stores the source code of the component"
+                  isArray="true"
+                  name="SourceCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="30">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+    {
+
+        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+        {
+            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+        }
+
+    }
+
+    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+    {
+        while (Buffer.NextRow())
+        {
+            Input0_ProcessInputRow(Buffer);
+        }
+    }
+
+    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    public override void PreExecute()
+    {
+        base.PreExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called once for every row that passes through the component from Input0.
+    ///
+    /// Example of reading a value from a column in the the row:
+    ///  string zipCode = Row.ZipCode
+    ///
+    /// Example of writing a value to a column in the row:
+    ///  Row.ZipCode = zipCode
+    /// </summary>
+    /// <param name="Row">The row that is currently passing through the component</param>
+    public override void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+        /*
+         * Add your code here
+         */
+
+        if (!Row.sexo.Equals("F"))
+            {
+            Row.sexo = "M";
+            return;
+        }else { Row.sexo = "F"; }
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Input0Buffer: ScriptBuffer
+
+{
+    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public String sexo
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[0]);
+        }
+        set
+        {
+            this[0] = value;
+        }
+    }
+    public bool sexo_IsNull
+    {
+        get
+        {
+            return IsNull(0);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(0);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public Int32 Newdsexo
+    {
+        set
+        {
+            this[1] = value;
+        }
+    }
+    public bool Newdsexo_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(1);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    new public bool NextRow()
+    {
+        return base.NextRow();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Settings.get_Default():SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Sett" +
+    "ings")]
+
+namespace SC_b7699754b02b4b5b86dbf3bf777100d4.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_b7699754b02b4b5b86dbf3bf777100d4.csproj]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{55fa5906-8013-4d8d-9def-16ebb4d7eb8f}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SC_b7699754b02b4b5b86dbf3bf777100d4</RootNamespace>
+    <AssemblyName>SC_b7699754b02b4b5b86dbf3bf777100d4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.TxScript, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.PipelineHost, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Compile Include="main.cs" />
+    <Compile Include="BufferWrapper.cs" />
+    <Compile Include="ComponentWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- This section defines VSTA properties that describe the host-changable project properties. -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptComponent" GeneratedNamespace="SC_b7699754b02b4b5b86dbf3bf777100d4" IconIndex="0"></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_SC130</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Project]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+	<msb:PropertyGroup>
+		<msb:CodeName>SC_b7699754b02b4b5b86dbf3bf777100d4</msb:CodeName>
+		<msb:Language>msBuild</msb:Language>
+		<msb:DisplayName>SC_b7699754b02b4b5b86dbf3bf777100d4</msb:DisplayName>
+		<msb:ProjectId>{457EFB05-A136-4B99-9DCC-7E772C4C4B7E}</msb:ProjectId>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:Project Include="SC_b7699754b02b4b5b86dbf3bf777100d4.csproj"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="main.cs"/>
+		<msb:File Include="BufferWrapper.cs"/>
+		<msb:File Include="ComponentWrapper.cs"/>
+	</msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_b7699754b02b4b5b86dbf3bf777100d4")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_b7699754b02b4b5b86dbf3bf777100d4")]
+[assembly: AssemblyCopyright("Copyright @  2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_b7699754b02b4b5b86dbf3bf777100d4.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_b7699754b02b4b5b86dbf3bf777100d4.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Stores the binary representation of the component"
+                  isArray="true"
+                  name="BinaryCode"
+                  state="cdata">
+                  <arrayElements
+                    arrayElementCount="2">
+                    <arrayElement
+                      dataType="System.String"><![CDATA[SC_b7699754b02b4b5b86dbf3bf777100d4.dll]]></arrayElement>
+                    <arrayElement
+                      dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAM8oAFcAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAOjIA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAOgxAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAQBIAAAAgAAAAFAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAAc
+MgAAAAAAAEgAAAACAAUA7CEAAEQPAAABAAAAAAAAADAxAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACiqqA28GAAAGcgEAAHBvEgAACi0M
+A3IFAABwbwcAAAYqA3IBAABwbwcAAAYqHgIoDgAABioqAgMEBSgTAAAKKlICexQAAAoCexUAAAoW
+lG8WAAAKKiYCFgMoFwAACioiAhYoGAAACipaAywIAhYoGQAACipyCQAAcHMaAAAKejoCFwOMHAAA
+ASgXAAAKKloDLAgCFygZAAAKKnIJAABwcxoAAAp6HgIoGwAACioeAigcAAAKKn4CKB0AAAoCAnMS
+AAAGfQEAAAQCAnMTAAAGfQIAAAQqkgRypgAAcBpvHgAACiwVAgUCAygfAAAKDgRzBQAABm8QAAAG
+KkorBwIDbxEAAAYDbwwAAAYt8SoGKjoCKCAAAAoCA30DAAAEKjoCKCAAAAoCA30EAAAEKh4CKCAA
+AAoqrn4FAAAELR5ytgAAcNAHAAACKCEAAApvIgAACnMjAAAKgAUAAAR+BQAABCoafgYAAAQqHgKA
+BgAABCoafgcAAAQqHgIoJAAACioucxkAAAaABwAABCoAAABCU0pCAQABAAAAAAAMAAAAdjQuMC4z
+MDMxOQAAAAAFAGwAAACkBQAAI34AABAGAABQBgAAI1N0cmluZ3MAAAAAYAwAACgBAAAjVVMAiA0A
+ABAAAAAjR1VJRAAAAJgNAACsAQAAI0Jsb2IAAAAAAAAAAgAAAVcVoAEJAQAAAPoBMwAWAAABAAAA
+IAAAAAgAAAAHAAAAGgAAABEAAAAkAAAAEAAAAAMAAAAHAAAACgAAAAEAAAAEAAAAAQAAAAAA8wIB
+AAAAAAAGAOoBhQQGAH4ChQQGADYBcgQPAPkEAAAGAGMBqAMGAM0BqAMGAK4BqAMGAGUCqAMGAAoC
+qAMGACMCqAMGAHoBqAMGAJUBuQIKAD4CgwAKAEQEgwAOADUEgwAKABAEgwAKAL8FgwAGAIIFYAMG
+ABkBcgQGAFUEpQQGAOUDkwMSAOkA3QISAEoB3QISANEAfgMGAP4AhQQGANYCYAMGALoDYAMGAAEA
+YAMGANQDYAMGAKQAYAMGAFUAYAMGAEQGqAMAAAAAKwAAAAAAAQABAAEAEABzAwAAEAABAAEAAQAQ
+ACgEAAA5AAEABQABABAAoQUAAEUAAQAOAAEAEAB2BQAASQADABIAAQAQADcFAABJAAQAEwAAABAA
+rAQIBUkABQAUAAABEABmBQgFYQAHABgABgB2BXoABgA3BX4AAQCvBYIAAQCvBYIAEQBnA4YAEQDB
+AIoAEQBFAI4AUCAAAAAAxgCcAgYAAQBYIAAAAADGAKcCBgABAGAgAAAAAMYAIQaSAAEAiyAAAAAA
+hhhlBAYAAgCTIAAAAACGGGUEIAACAJ4gAAAAAIYI8QOYAAUAsyAAAAAAhgj6AxAABQC9IAAAAACG
+CBsDQgAGAMYgAAAAAIYIKwOcAAYA3SAAAAAAhggDBAEABwDsIAAAAACGCDsDnAAIAAMhAAAAAIYA
+OAZCAAkACyEAAAAAhgCJBUIACQATIQAAAACGGGUEBgAJADMhAAAAAMYAFAahAAkAWCEAAAAAxgEN
+BpIADQBrIQAAAADGASEGkgAOAG0hAAAAAIYYZQSrAA8AfCEAAAAAhhhlBKsAEACLIQAAAACDGGUE
+BgARAJMhAAAAAJMIUQSxABEAvyEAAAAAkwipALYAEQDGIQAAAACTCLUAuwARAM4hAAAAAJYIlQXB
+ABIA1SEAAAAAhhhlBAYAEgDdIQAAAACRGGsExgASAAAAAQA8BgAAAQBKBAAAAgBBBQAAAwAeBAAA
+AQCzAgAAAQCzAgAAAQCzAgAAAQCzAgAAAQA0AAAAAgB5AAAAAwBKBAAABAAeBAAAAQBKBAAAAQA8
+BgAAAQDFBQAAAQDFBQAAAQCzAgkAZQQBABEAZQQGABkAZQQKACkAZQQQADEAZQQQADkAZQQQAEEA
+ZQQQAEkAZQQQAFEAZQQQAFkAZQQQAGEAZQQQAGkAZQQGAJkAZQQGALkAZQQVAMkAZQQGAIkAnAIG
+AIkApwIGANEAbwUbAHEAZQQgAHEASgQqAHEAQQUuAHkA0wIyAHEAVwM3AHEASAM9AHEATwMBANkA
+ZQQQAHEAOAZCAHEAiQVCAIkAZQQGANEAbwVGAIkAVQVNAJEAZQQGAPEAZwBTAPEAQAZaAKEAZQRg
+AMEAZQQGAC4ACwDlAC4AEwDuAC4AGwANAS4AIwAWAS4AKwA/AS4AMwA/AS4AOwA/AS4AQwAWAS4A
+SwBFAS4AUwA/AS4AWwBcAUMAYwCmAakAcwANAckAcwANAeEAewCmAeMAawCmAQMAAQAHAAUACAAH
+AAAACwTKAAAAQwPOAAAABwTSAAAAPwPOAAAAVQTWAAAAyQDbAAAAmQXgAAIABgADAAEABwADAAIA
+CAAFAAEACQAFAAEACgAHAAEACwAJAAIAFQALAAIAFgANAAEAFwANAAIAGAAPAASAAAABAAAAAAAA
+AAAAAAAAAAcAAAAEAAAAAAAAAAAAAABoADwAAAAAAA0AAAAAAAAAAAAAAHEAzwUAAAAADQAAAAAA
+AAAAAAAAcQDsBQAAAAAEAAAAAAAAAAAAAABoAGADAAAAAAAAAAABAAAAtgQAAAAAAEludDMyAFND
+X2I3Njk5NzU0YjAyYjRiNWI4NmRiZjNiZjc3NzEwMGQ0ADxNb2R1bGU+AElucHV0SUQAbXNjb3Js
+aWIAZGVmYXVsdEluc3RhbmNlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVGcm9tSGFuZGxlAElu
+cHV0TmFtZQBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZQBUeXBlAGdldF9DdWx0dXJl
+AHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBBcHBsaWNhdGlvblNldHRpbmdzQmFzZQBFZGl0
+b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBEZWJ1Z2dlck5vblVz
+ZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJvd3NhYmxlQXR0cmli
+dXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtBdHRyaWJ1dGUAVGFy
+Z2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0dHJpYnV0ZQBBc3Nl
+bWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlvbnNBdHRyaWJ1dGUA
+QXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0cmlidXRlAFNTSVNT
+Y3JpcHRDb21wb25lbnRFbnRyeVBvaW50QXR0cmlidXRlAEFzc2VtYmx5Q29tcGFueUF0dHJpYnV0
+ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0ZQBQcmVFeGVjdXRlAFBvc3RFeGVjdXRlAHZh
+bHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAR2V0U3RyaW5nAFN5c3RlbS5Db21wb25lbnRN
+b2RlbABTQ19iNzY5OTc1NGIwMmI0YjViODZkYmYzYmY3NzcxMDBkNC5kbGwAZ2V0X3NleG9fSXNO
+dWxsAHNldF9zZXhvX0lzTnVsbABzZXRfTmV3ZHNleG9fSXNOdWxsAFNldE51bGwAc2V0X0l0ZW0A
+U3lzdGVtAHJlc291cmNlTWFuAFNjcmlwdE1haW4AU3lzdGVtLkNvbmZpZ3VyYXRpb24AU3lzdGVt
+Lkdsb2JhbGl6YXRpb24AU3lzdGVtLlJlZmxlY3Rpb24ASW52YWxpZE9wZXJhdGlvbkV4Y2VwdGlv
+bgBTdHJpbmdDb21wYXJpc29uAEN1bHR1cmVJbmZvAGdldF9zZXhvAHNldF9zZXhvAHNldF9OZXdk
+c2V4bwBPdXRwdXROYW1lTWFwAE91dHB1dE1hcABJbnB1dDBCdWZmZXIAUGlwZWxpbmVCdWZmZXIA
+U2NyaXB0QnVmZmVyAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNjdG9yAFN5c3RlbS5EaWFn
+bm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5c3RlbS5SZXNvdXJjZXMA
+U0NfYjc2OTk3NTRiMDJiNGI1Yjg2ZGJmM2JmNzc3MTAwZDQuUHJvcGVydGllcy5SZXNvdXJjZXMu
+cmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNDX2I3Njk5NzU0YjAyYjRiNWI4NmRiZjNiZjc3NzEw
+MGQ0LlByb3BlcnRpZXMAVmFyaWFibGVzAEJ1ZmZlckNvbHVtbkluZGV4ZXMAR2V0Q29sdW1uSW5k
+ZXhlcwBTZXR0aW5ncwBFcXVhbHMAQ29ubmVjdGlvbnMAT2JqZWN0AEVuZE9mUm93c2V0AGdldF9E
+ZWZhdWx0AFVzZXJDb21wb25lbnQAUGFyZW50Q29tcG9uZW50AFNjcmlwdENvbXBvbmVudABNaWNy
+b3NvZnQuU3FsU2VydmVyLlR4U2NyaXB0AE1pY3Jvc29mdC5TcWxTZXJ2ZXIuUGlwZWxpbmVIb3N0
+AElucHV0MF9Qcm9jZXNzSW5wdXQASW5wdXQwX1Byb2Nlc3NJbnB1dFJvdwBOZXh0Um93AGdldF9B
+c3NlbWJseQAAAAAAA0YAAANNAACAm0kAcwBOAHUAbABsACAAcAByAG8AcABlAHIAdAB5ACAAYwBh
+AG4AbgBvAHQAIABiAGUAIABzAGUAdAAgAHQAbwAgAEYAYQBsAHMAZQAuACAAQQBzAHMAaQBnAG4A
+IABhACAAdgBhAGwAdQBlACAAdABvACAAdABoAGUAIABjAG8AbAB1AG0AbgAgAGkAbgBzAHQAZQBh
+AGQALgAAD0kAbgBwAHUAdAAgADAAAHFTAEMAXwBiADcANgA5ADkANwA1ADQAYgAwADIAYgA0AGIA
+NQBiADgANgBkAGIAZgAzAGIAZgA3ADcANwAxADAAMABkADQALgBQAHIAbwBwAGUAcgB0AGkAZQBz
+AC4AUgBlAHMAbwB1AHIAYwBlAHMAAPK92Knkn6tMs4VNOPwLnBwABCABAQgDIAABBSABARERBCAB
+AQ4FIAEBEVkEIAECDgkgAwESPR0IEkEDBhI9AwYdCAQgAQ4IBSACAQgcBCABAggDIAACBiACAg4R
+dQUgAR0ICAYAARJ5EX0FIAASgIEHIAIBDhKAgQi3elxWGTTgiQiJhF3NgIDMkQMGEhQDBhIYAwYS
+RQMGElEDBhJVAwYSIAUgAQESDAMgAA4EIAEBAgkgBAEIDhI9EkEFIAEBEkUEAAASUQQAABJVBQAB
+ARJVBAAAEiADAAABAygADgMoAAIDKAAIBAgAElEECAASVQQIABIgCAEACAAAAAAAHgEAAQBUAhZX
+cmFwTm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTQ19iNzY5OTc1NGIwMmI0YjViODZk
+YmYzYmY3NzcxMDBkNAAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDE2AABJAQAaLk5FVEZyYW1l
+d29yayxWZXJzaW9uPXY0LjUBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3Jr
+IDQuNQQBAAAAALQAAADOyu++AQAAAJEAAABsU3lzdGVtLlJlc291cmNlcy5SZXNvdXJjZVJlYWRl
+ciwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlU
+b2tlbj1iNzdhNWM1NjE5MzRlMDg5I1N5c3RlbS5SZXNvdXJjZXMuUnVudGltZVJlc291cmNlU2V0
+AgAAAAAAAAAAAAAAUEFEUEFEULQAAAAQMgAAAAAAAAAAAAAqMgAAACAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAHDIAAAAAAAAAAAAAAABfQ29yRGxsTWFpbgBtc2NvcmVlLmRsbAAAAAAA/yUAIAAQAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
+SAAAAFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
+AAAAvQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
+AAAAAAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAA
+MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
+AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
+AABTAEMAXwBiADcANgA5ADkANwA1ADQAYgAwADIAYgA0AGIANQBiADgANgBkAGIAZgAzAGIAZgA3
+ADcANwAxADAAMABkADQAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
+MAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfAGIANwA2ADkAOQA3
+ADUANABiADAAMgBiADQAYgA1AGIAOAA2AGQAYgBmADMAYgBmADcANwA3ADEAMAAwAGQANAAuAGQA
+bABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBo
+AHQAIABAACAAIAAyADAAMQA2AAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMA
+AAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8AYgA3
+ADYAOQA5ADcANQA0AGIAMAAyAGIANABiADUAYgA4ADYAZABiAGYAMwBiAGYANwA3ADcAMQAwADAA
+ZAA0AC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfAGIANwA2
+ADkAOQA3ADUANABiADAAMgBiADQAYgA1AGIAOAA2AGQAYgBmADMAYgBmADcANwA3ADEAMAAwAGQA
+NAAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4
+AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAPDIAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
+                  </arrayElements>
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                  name="VSTAProjectName"
+                  typeConverter="NOTBROWSABLE">SC_b7699754b02b4b5b86dbf3bf777100d4</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the programming language used by the script."
+                  name="ScriptLanguage"
+                  typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read-only variables."
+                  name="ReadOnlyVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies a comma-separated list of read/write variables."
+                  name="ReadWriteVariables"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                <property
+                  dataType="System.String"
+                  description="List of breakpoints present on the script."
+                  isArray="true"
+                  name="BreakpointCollection"
+                  typeConverter="NOTBROWSABLE">
+                  <arrayElements
+                    arrayElementCount="0" />
+                </property>
+                <property
+                  dataType="System.String"
+                  description="Checksum to match component metedata against compiled codes."
+                  name="MetadataChecksum"
+                  typeConverter="NOTBROWSABLE">ffd237d37dc69a0687e766224b8de1c2</property>
+                <property
+                  dataType="System.String"
+                  name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\Transformacion\Hombres.Inputs[Input 0]"
+                  hasSideEffects="true"
+                  name="Input 0">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Transformacion\Hombres.Inputs[Input 0].Columns[sexo]"
+                      cachedDataType="wstr"
+                      cachedLength="20"
+                      cachedName="sexo"
+                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[sexo]"
+                      usageType="readWrite" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Transformacion\Hombres.Outputs[Output 0]"
+                  name="Output 0"
+                  synchronousInputId="Package\Transformacion\Hombres.Inputs[Input 0]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Transformacion\Hombres.Outputs[Output 0].Columns[Newd sexo]"
+                      dataType="i4"
+                      lineageId="Package\Transformacion\Hombres.Outputs[Output 0].Columns[Newd sexo]"
+                      name="Newd sexo" />
                   </outputColumns>
                   <externalMetadataColumns />
                 </output>
@@ -1053,11 +2256,11 @@ from personas;</property>
               </outputs>
             </component>
             <component
-              refId="Package\Transformacion\Pruebas"
+              refId="Package\Transformacion\OLE DB Destination"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
               description="OLE DB Destination"
-              name="Pruebas"
+              name="OLE DB Destination"
               usesDispositions="true"
               version="4">
               <properties>
@@ -1110,7 +2313,7 @@ from personas;</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Transformacion\Pruebas.Connections[OleDbConnection]"
+                  refId="Package\Transformacion\OLE DB Destination.Connections[OleDbConnection]"
                   connectionManagerID="Package.ConnectionManagers[DESKTOP-2M8IR1D\SQLEXPRESS.Pruebas]"
                   connectionManagerRefId="Package.ConnectionManagers[DESKTOP-2M8IR1D\SQLEXPRESS.Pruebas]"
                   description="The OLE DB runtime connection used to access the database."
@@ -1118,87 +2321,101 @@ from personas;</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input]"
+                  refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input]"
                   errorOrTruncationOperation="Insert"
                   errorRowDisposition="FailComponent"
                   hasSideEffects="true"
                   name="OLE DB Destination Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[number]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[idCliente]"
                       cachedDataType="i4"
-                      cachedName="number"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[IDPersona]"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[number]" />
+                      cachedName="idCliente"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IDPersona]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[idCliente]" />
                     <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[new birthday]"
-                      cachedDataType="dbDate"
-                      cachedName="new birthday"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new birthday]" />
-                    <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[new givenname]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new givenname]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="20"
                       cachedName="new givenname"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new givenname]" />
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new givenname]" />
                     <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[Copy of surname]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new surname]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="23"
-                      cachedName="Copy of surname"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of surname]" />
+                      cachedName="new surname"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new surname]" />
                     <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[Copy of newtelephone]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="20"
-                      cachedName="Copy of newtelephone"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of newtelephone]" />
-                    <inputColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].Columns[Copy of emailaddress]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new emailaddress]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="100"
-                      cachedName="Copy of emailaddress"
-                      externalMetadataColumnId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of emailaddress]" />
+                      cachedName="new emailaddress"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new emailaddress]" />
+                    <inputColumn
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new telephonenumber]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="20"
+                      cachedName="new telephonenumber"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new telephonenumber]" />
+                    <inputColumn
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new birthday]"
+                      cachedDataType="date"
+                      cachedName="new birthday"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new birthday]" />
+                    <inputColumn
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[new sexo]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="1"
+                      cachedName="new sexo"
+                      externalMetadataColumnId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sex]"
+                      lineageId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output].Columns[new sexo]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[IDPersona]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[IDPersona]"
                       dataType="i4"
                       name="IDPersona" />
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
                       codePage="1252"
                       dataType="str"
                       length="20"
                       name="givenname" />
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
                       codePage="1252"
                       dataType="str"
                       length="60"
                       name="Surname" />
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sex]"
+                      codePage="1252"
+                      dataType="str"
+                      length="1"
+                      name="sex" />
+                    <externalMetadataColumn
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
                       codePage="1252"
                       dataType="str"
                       length="100"
                       name="emailaddress" />
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
                       dataType="dbDate"
                       name="birthday" />
                     <externalMetadataColumn
-                      refId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
+                      refId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
                       codePage="1252"
                       dataType="str"
                       length="60"
@@ -1208,238 +2425,22 @@ from personas;</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Transformacion\Pruebas.Outputs[OLE DB Destination Error Output]"
+                  refId="Package\Transformacion\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input]">
+                  synchronousInputId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Transformacion\Pruebas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      refId="Package\Transformacion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Transformacion\Pruebas.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Transformacion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Transformacion\Pruebas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      refId="Package\Transformacion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Transformacion\Pruebas.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Transformacion\String to Date"
-              componentClassID="Microsoft.DataConvert"
-              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-              description="Data Conversion"
-              name="String to Date"
-              usesDispositions="true">
-              <inputs>
-                <input
-                  refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input]"
-                  name="Data Conversion Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[birthday]"
-                      cachedDataType="wstr"
-                      cachedLength="10"
-                      cachedName="birthday"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[birthday]" />
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[givenname]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="givenname"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]" />
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[surname]"
-                      cachedDataType="wstr"
-                      cachedLength="23"
-                      cachedName="surname"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[surname]" />
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[streetaddress]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="streetaddress"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[streetaddress]" />
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[emailaddress]"
-                      cachedDataType="wstr"
-                      cachedLength="100"
-                      cachedName="emailaddress"
-                      lineageId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[emailaddress]" />
-                    <inputColumn
-                      refId="Package\Transformacion\String to Date.Inputs[Data Conversion Input].Columns[newtelephone]"
-                      cachedDataType="wstr"
-                      cachedLength="20"
-                      cachedName="newtelephone"
-                      lineageId="Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[newtelephone]" />
-                  </inputColumns>
-                  <externalMetadataColumns />
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output]"
-                  exclusionGroup="1"
-                  name="Data Conversion Output"
-                  synchronousInputId="Package\Transformacion\String to Date.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of emailaddress]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="100"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of emailaddress]"
-                      name="Copy of emailaddress"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[emailaddress]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of streetaddress]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="100"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of streetaddress]"
-                      name="Copy of streetaddress"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[streetaddress]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of surname]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="23"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of surname]"
-                      name="Copy of surname"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[surname]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of newtelephone]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="20"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[Copy of newtelephone]"
-                      name="Copy of newtelephone"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\Derived Column.Outputs[Derived Column Output].Columns[newtelephone]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new birthday]"
-                      dataType="dbDate"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new birthday]"
-                      name="new birthday"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[birthday]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new givenname]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      length="20"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Output].Columns[new givenname]"
-                      name="new givenname"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          containsID="true"
-                          dataType="System.Int32"
-                          description="Specifies the input column used as the source of data for the conversion."
-                          name="SourceInputColumnLineageID">#{Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output].Columns[givenname]}</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-                <output
-                  refId="Package\Transformacion\String to Date.Outputs[Data Conversion Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="Data Conversion Error Output"
-                  synchronousInputId="Package\Transformacion\String to Date.Inputs[Data Conversion Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Transformacion\String to Date.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Transformacion\String to Date.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Transformacion\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1456,14 +2457,19 @@ from personas;</property>
               startId="Package\Transformacion\MySql Personas.Outputs[ADO NET Source Output]" />
             <path
               refId="Package\Transformacion.Paths[Data Conversion Output]"
-              endId="Package\Transformacion\Pruebas.Inputs[OLE DB Destination Input]"
+              endId="Package\Transformacion\OLE DB Destination.Inputs[OLE DB Destination Input]"
               name="Data Conversion Output"
-              startId="Package\Transformacion\String to Date.Outputs[Data Conversion Output]" />
+              startId="Package\Transformacion\Data Conversion.Outputs[Data Conversion Output]" />
             <path
               refId="Package\Transformacion.Paths[Derived Column Output]"
-              endId="Package\Transformacion\String to Date.Inputs[Data Conversion Input]"
+              endId="Package\Transformacion\Hombres.Inputs[Input 0]"
               name="Derived Column Output"
               startId="Package\Transformacion\Derived Column.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\Transformacion.Paths[Output 0]"
+              endId="Package\Transformacion\Data Conversion.Inputs[Data Conversion Input]"
+              name="Output 0"
+              startId="Package\Transformacion\Hombres.Outputs[Output 0]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1547,49 +2553,41 @@ from personas;</property>
     design-time-name="Package\Transformacion">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="152,42"
           Id="Package\Transformacion\MySql Personas"
           TopLeft="33.8214285714286,15.7857142857143" />
         <NodeLayout
-          Size="145,42"
-          Id="Package\Transformacion\String to Date"
-          TopLeft="72,167" />
-        <NodeLayout
-          Size="117,42"
-          Id="Package\Transformacion\Pruebas"
-          TopLeft="104,254.222222222222" />
-        <NodeLayout
           Size="154,42"
           Id="Package\Transformacion\Derived Column"
-          TopLeft="42,94" />
+          TopLeft="46,96" />
         <EdgeLayout
           Id="Package\Transformacion.Paths[ADO NET Source Output]"
           TopLeft="109.821428571429,57.7857142857143">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="9.1785714285714,36.2142857142857"
+              EndConnector="13.1785714285714,38.2142857142857"
               Start="0,0"
-              End="9.1785714285714,28.7142857142857">
+              End="13.1785714285714,30.7142857142857">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.1071428571429" />
+                    End="0,15.1071428571429" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,14.1071428571429"
-                    Point2="0,18.1071428571429"
-                    Point3="4,18.1071428571429" />
+                    Point1="0,15.1071428571429"
+                    Point2="0,19.1071428571429"
+                    Point3="4,19.1071428571429" />
                   <mssgle:LineSegment
-                    End="5.1785714285714,18.1071428571429" />
+                    End="9.1785714285714,19.1071428571429" />
                   <mssgle:CubicBezierSegment
-                    Point1="5.1785714285714,18.1071428571429"
-                    Point2="9.1785714285714,18.1071428571429"
-                    Point3="9.1785714285714,22.1071428571429" />
+                    Point1="9.1785714285714,19.1071428571429"
+                    Point2="13.1785714285714,19.1071428571429"
+                    Point3="13.1785714285714,23.1071428571429" />
                   <mssgle:LineSegment
-                    End="9.1785714285714,28.7142857142857" />
+                    End="13.1785714285714,30.7142857142857" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1598,66 +2596,116 @@ from personas;</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Transformacion.Paths[Data Conversion Output]"
-          TopLeft="144.5,209">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="18,45.2222222222222"
-              Start="0,0"
-              End="18,37.7222222222222">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,18.6111111111111"
-                    Point2="0,22.6111111111111"
-                    Point3="4,22.6111111111111" />
-                  <mssgle:LineSegment
-                    End="14,22.6111111111111" />
-                  <mssgle:CubicBezierSegment
-                    Point1="14,22.6111111111111"
-                    Point2="18,22.6111111111111"
-                    Point3="18,26.6111111111111" />
-                  <mssgle:LineSegment
-                    End="18,37.7222222222222" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="121,42"
+          Id="Package\Transformacion\Hombres"
+          TopLeft="363,110" />
         <EdgeLayout
           Id="Package\Transformacion.Paths[Derived Column Output]"
-          TopLeft="119,136">
+          TopLeft="200,117">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="25.5,31"
+              EndConnector="163,14"
               Start="0,0"
-              End="25.5,23.5">
+              End="155.5,14">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,11.5" />
+                    End="77.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,11.5"
-                    Point2="0,15.5"
-                    Point3="4,15.5" />
+                    Point1="77.5,0"
+                    Point2="81.5,0"
+                    Point3="81.5,4" />
                   <mssgle:LineSegment
-                    End="21.5,15.5" />
+                    End="81.5,10" />
                   <mssgle:CubicBezierSegment
-                    Point1="21.5,15.5"
-                    Point2="25.5,15.5"
-                    Point3="25.5,19.5" />
+                    Point1="81.5,10"
+                    Point2="81.5,14"
+                    Point3="85.5,14" />
                   <mssgle:LineSegment
-                    End="25.5,23.5" />
+                    End="155.5,14" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="73.5,-22,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Transformacion\Data Conversion"
+          TopLeft="45,202" />
+        <EdgeLayout
+          Id="Package\Transformacion.Paths[Output 0]"
+          TopLeft="423.5,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-300.5,50"
+              Start="0,0"
+              End="-300.5,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,21" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,21"
+                    Point2="0,25"
+                    Point3="-4,25" />
+                  <mssgle:LineSegment
+                    End="-296.5,25" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-296.5,25"
+                    Point2="-300.5,25"
+                    Point3="-300.5,29" />
+                  <mssgle:LineSegment
+                    End="-300.5,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-158.25,30,16,16"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Transformacion\OLE DB Destination"
+          TopLeft="406,263" />
+        <EdgeLayout
+          Id="Package\Transformacion.Paths[Data Conversion Output]"
+          TopLeft="201,223">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="205,61"
+              Start="0,0"
+              End="197.5,61">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="98.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="98.5,0"
+                    Point2="102.5,0"
+                    Point3="102.5,4" />
+                  <mssgle:LineSegment
+                    End="102.5,57" />
+                  <mssgle:CubicBezierSegment
+                    Point1="102.5,57"
+                    Point2="102.5,61"
+                    Point3="106.5,61" />
+                  <mssgle:LineSegment
+                    End="197.5,61" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -1678,7 +2726,7 @@ from personas;</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Transformacion\Pruebas">
+    design-time-name="Package\Transformacion\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
