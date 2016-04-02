@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP-2M8IR1D</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAACAAAAAAAQZgAAAAEAACAAAADHWCPCym/aDypb75w6vTMQNNt66d2X5Gq00dxfSec2fQAAAAAOgAAAAAIAACAAAAAc4mh0Yh8jvfLR1nVWx7YL58n/tdpoczdka9ehBb6XlZAAAAA0Homy/fYxc3PKgLb3CZXuoZNMApwopidZdnlwTgpRh+JdPOTzA4+RaolUcB5al9kImgZgbQ2WGiU5kI5LHyY7o4P4Mx+kxOO1ALf9NaXwfunsgHI+CnhKtX0gvspeRpKuUddxITrNlC278sHji+MgwrAYKtYPZE1v5NegNQkVsBNj9AcR66jgb+cEzgix8UNAAAAAGJrTEEFvNJxc6FSIzLlGBhZZiSw+FCuJagOA37Lsg6biq7f/qW4cMILlwBL1RH5llUfaqoVEXelEKg33EDoNcw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAACAAAAAAAQZgAAAAEAACAAAABUBXdtL3uTl+FlGA8TdGVUXOh7ZBZ9xbmkXO3q8GIyZgAAAAAOgAAAAAIAACAAAAAMlWFQ5PWcm0obwJ23PNWlc6DzoDCsO3lSG5T6B8g8XpAAAAAX7zYhNZMpjycWY6nnurxvIhoWG8N3YXPLqTD9bDNoitFKK4iz8FWv54AbpMFmyPRSsEJeDVkEevKd7LC4FEXa2zAdiPCCCtgLxzlpwnTuABg6FspSwQdmFIeaOF0zlhSQat2zbFlzjGNCwMepHey68SXO60NrXG1MU/G+fAmLjf0rz9O75brVPJiV3RXPTyFAAAAArMrfkdo9lVp44whhozFl2KIE5OaANyurWZV3dOCJ62u+OvkwTUzv7XRIzf68IrdFu6RlgwMudh9n4x0dXbvuFA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -133,10 +133,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">53</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">54</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{551A60D3-6DBA-42E5-AFA8-069A54999C70}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{C1EDFFF2-F8FC-4A7D-995B-27BB59DEFF2C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -154,7 +154,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Database="Venta de carros Alemania";Host=localhost;Port=5433;Username=postgres;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">User Id=postgres;Host=localhost;Port=5433;Database="Venta de carros Alemania";Initial Schema=public;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -226,6 +226,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">postgres</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
