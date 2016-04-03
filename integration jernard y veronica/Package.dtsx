@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="127"
-  DTS:VersionGUID="{5BCE8E97-0E49-4DA5-ADEA-2665F31554F3}">
+  DTS:VersionBuild="128"
+  DTS:VersionGUID="{7D11CAE2-3593-480E-AA15-10A924BF5537}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABeZ0B9QNCDG8LCwlpTOqpcmjHmsVy1WT/6KHPScdLkCgAAAAAOgAAAAAIAACAAAADQHp0nxB1CsdgA1iHQ5j36jdcDdR3Bqf/h2FnUhfvqWzAAAAD7PaGVkypMsFrKga7v5tAuzq2QhmI95tr764JGayJJRv2OBYrwA9fAKRfK1gP8w+ZAAAAAav6RRUgLlWPx2pGZc2RWe/EACzqTZPGYQithfLuqS2N01jAWeGIPDQlYxS7c7UKv88XWW4WgexQVygqUiFvQlQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACaN3Kt7GdUo8ja9t/e1/CG0Yji4mZ0ZzxjuehzSQ+FhAAAAAAOgAAAAAIAACAAAABVENa3vX7H6Q5rqXEJJzRYkSRbFCMZQBVZTS6xmr7iaDAAAAC7/zxu2lWs399b9PvLHgeRfZ+RSwYBLVtT9PD8I3pExS8rzL9Brg/r5VRLtfAFoL1AAAAAbU3AEKkUylL7HBbglC5mom0vQ+A0cbmoS1h1hD5sLEalSY5zV61EpoL3Jy1cJ44efQ0o6eQo4zVtpaphMzzeAw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -62,7 +62,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACJ9bSTMQwdclxBIlk4xpD/idMAyixGcRVzn8atdEQuZgAAAAAOgAAAAAIAACAAAAB9EVqztgxtiYvyuhG1aYf/iyZf7Gg6w4JyL8jKdKjmODAAAADOr8Jql7Jl8UrvfBYQliA8kaJI1SIGLeF9sicss35ddRwKUoPvtYVseDICZhckRm9AAAAA3MpPR3B487zXwqQ1cGU4tcKryQXaFEgjx9ZSVsOsgDQcli7DLmJKzIM+hGo4c0MY+l363dlRT77l0PmsWhzMug</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAE9lzv9UCQdCFj5xQiLErAFZAIWNrsOyqeG4lCegF9bgAAAAAOgAAAAAIAACAAAACW+ryXgGIstQ8tScz2YDWiHVLWOd0hSCxkC5SnNBiv1jAAAAA0/3uBEiCXpZzJrk8VfZIRcEwr3QpKe7toYKaIrqf0MQKFs4YTadVX5jkZ15h4PiJAAAAALJxPczSo7gftzhM5KdozZ/MwqwQxrtM59iB6fSgEEgsMPwwxsRm1qzZa2ppqSw5nNt8gMswRv0Na59tDa4EYGw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -97,7 +97,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CurrentDay">
       <DTS:VariableValue
-        DTS:DataType="7">4/3/2016 9:41:50 AM</DTS:VariableValue>
+        DTS:DataType="7">4/3/2016 9:43:16 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -12699,25 +12699,37 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         <NodeLayout
           Size="117,42"
           Id="Package\Postgresql Alemania\Tarjetas"
-          TopLeft="61,149" />
+          TopLeft="49,147" />
         <NodeLayout
           Size="117,42"
           Id="Package\Postgresql Alemania\Veiculos"
           TopLeft="54,233" />
         <EdgeLayout
           Id="Package\Postgresql Alemania.PrecedenceConstraints[Constraint]"
-          TopLeft="121,120">
+          TopLeft="122.5,120">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,29"
+              EndConnector="-15,27"
               Start="0,0"
-              End="0,21.5">
+              End="-15,19.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,21.5" />
+                    End="0,9.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="-4,13.5" />
+                  <mssgle:LineSegment
+                    End="-11,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-11,13.5"
+                    Point2="-15,13.5"
+                    Point3="-15,17.5" />
+                  <mssgle:LineSegment
+                    End="-15,19.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -12750,18 +12762,18 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Postgresql Alemania.PrecedenceConstraints[Constraint 2]"
-          TopLeft="116,191">
+          TopLeft="110,189">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,42"
+              EndConnector="0,44"
               Start="0,0"
-              End="0,34.5">
+              End="0,36.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,34.5" />
+                    End="0,36.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
