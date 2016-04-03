@@ -11,8 +11,8 @@
   DTS:LocaleID="9226"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="124"
-  DTS:VersionGUID="{EFA5A47E-E298-44E2-9CC7-1E3DEC3228F8}">
+  DTS:VersionBuild="127"
+  DTS:VersionGUID="{5BCE8E97-0E49-4DA5-ADEA-2665F31554F3}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADgUPP66eHIuR5x/lCxV2PwjfEBZZTICT+ckcJ8ZrizQgAAAAAOgAAAAAIAACAAAAD9PuoHF06bVDP7HjTo4IIW6VIZ9uIAMO0ZJkt1Gv0CbDAAAACJYiOqKAKisU5FL8+V54hW9nor4mO1bC4IGEk7R6GxXWxrDkeYdQTvKqQlNq0dzS5AAAAAn5R6KWFg2RwpVrs08DrwqyiMXqrv7/u/5oNkjKwOdKuHvvOyR8Nq2ugdMZ/4X92xok+Z5Ukc9uf+jb9LaNuFhw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABeZ0B9QNCDG8LCwlpTOqpcmjHmsVy1WT/6KHPScdLkCgAAAAAOgAAAAAIAACAAAADQHp0nxB1CsdgA1iHQ5j36jdcDdR3Bqf/h2FnUhfvqWzAAAAD7PaGVkypMsFrKga7v5tAuzq2QhmI95tr764JGayJJRv2OBYrwA9fAKRfK1gP8w+ZAAAAAav6RRUgLlWPx2pGZc2RWe/EACzqTZPGYQithfLuqS2N01jAWeGIPDQlYxS7c7UKv88XWW4WgexQVygqUiFvQlQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -62,7 +62,7 @@
           <DTS:Password
             DTS:Name="password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADvUJC3iBiEKsx7v2IMnCiCg8aSnYft+fqAi9EmWI+4bwAAAAAOgAAAAAIAACAAAADBYP6kWKO9RBygGH8ldj1qXpUhPtMhibGnj4FOxe0I1TAAAAB0lYk/Nskf4WK29hBeto3KiHZJTFybVywrKN//jC1tST77RzaPg/f39zVTbQTDq9pAAAAA3PpsIZks0pSliXB1SyHSQFBqkWRn5I3YmdCw6SuUIuoWKAwXKjejRVVeR0uCjTgQW9NRwx7FRehffW8LRY8gHw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALtoX/hYlfE+h9PfiEKcdGgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACJ9bSTMQwdclxBIlk4xpD/idMAyixGcRVzn8atdEQuZgAAAAAOgAAAAAIAACAAAAB9EVqztgxtiYvyuhG1aYf/iyZf7Gg6w4JyL8jKdKjmODAAAADOr8Jql7Jl8UrvfBYQliA8kaJI1SIGLeF9sicss35ddRwKUoPvtYVseDICZhckRm9AAAAA3MpPR3B487zXwqQ1cGU4tcKryQXaFEgjx9ZSVsOsgDQcli7DLmJKzIM+hGo4c0MY+l363dlRT77l0PmsWhzMug</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -97,7 +97,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="CurrentDay">
       <DTS:VariableValue
-        DTS:DataType="7">4/3/2016 8:21:50 AM</DTS:VariableValue>
+        DTS:DataType="7">4/3/2016 9:41:50 AM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -4894,14 +4894,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           VSTAMinorVersion="0"
           Language="CSharp">
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_bf3b5ff7b77148fdac2950f7dc4bad04")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_bf3b5ff7b77148fdac2950f7dc4bad04")]
+[assembly: AssemblyCopyright("Copyright @  2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -5022,91 +5043,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
   </resheader>
 </root>]]></ProjectItem>
           <ProjectItem
-            Name="ST_bf3b5ff7b77148fdac2950f7dc4bad04.csproj"
-            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{5460DCA1-43BC-4532-8E55-02CF4AFBC469}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_bf3b5ff7b77148fdac2950f7dc4bad04</RootNamespace>
-    <AssemblyName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
-        <Host Name="ScriptTask" />
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST130</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
-          <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
 /* The Script Task allows you to perform virtually any operation that can be accomplished in
@@ -5222,85 +5158,6 @@ namespace ST_bf3b5ff7b77148fdac2950f7dc4bad04
 	}
 }]]></ProjectItem>
           <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
-	<msb:PropertyGroup>
-		<msb:Language>msBuild</msb:Language>
-		<msb:CodeName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</msb:CodeName>
-		<msb:DisplayName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</msb:DisplayName>
-		<msb:ProjectId>{ACB52BD5-AEBC-4FA1-8C48-B8D898600C5B}</msb:ProjectId>
-	</msb:PropertyGroup>
-	<msb:ItemGroup>
-		<msb:Project Include="ST_bf3b5ff7b77148fdac2950f7dc4bad04.csproj"/>
-		<msb:File Include="Properties\Settings.settings"/>
-		<msb:File Include="Properties\AssemblyInfo.cs"/>
-		<msb:File Include="Properties\Resources.resx"/>
-		<msb:File Include="Properties\Resources.Designer.cs"/>
-		<msb:File Include="Properties\Settings.Designer.cs"/>
-		<msb:File Include="ScriptMain.cs"/>
-	</msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties.Settings.get_Default():ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties.Sett" +
-    "ings")]
-
-namespace ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties {
-    
-    
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
-        
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-        
-        public static Settings Default {
-            get {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_bf3b5ff7b77148fdac2950f7dc4bad04")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_bf3b5ff7b77148fdac2950f7dc4bad04")]
-[assembly: AssemblyCopyright("Copyright @  2016")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-          <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
 // <auto-generated>
@@ -5368,6 +5225,149 @@ namespace ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties {
         }
     }
 }]]></ProjectItem>
+          <ProjectItem
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+	<msb:PropertyGroup>
+		<msb:Language>msBuild</msb:Language>
+		<msb:CodeName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</msb:CodeName>
+		<msb:DisplayName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</msb:DisplayName>
+		<msb:ProjectId>{ACB52BD5-AEBC-4FA1-8C48-B8D898600C5B}</msb:ProjectId>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:Project Include="ST_bf3b5ff7b77148fdac2950f7dc4bad04.csproj"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="ScriptMain.cs"/>
+	</msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties.Settings.get_Default():ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties.Sett" +
+    "ings")]
+
+namespace ST_bf3b5ff7b77148fdac2950f7dc4bad04.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
+          <ProjectItem
+            Name="ST_bf3b5ff7b77148fdac2950f7dc4bad04.csproj"
+            Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5460DCA1-43BC-4532-8E55-02CF4AFBC469}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_bf3b5ff7b77148fdac2950f7dc4bad04</RootNamespace>
+    <AssemblyName>ST_bf3b5ff7b77148fdac2950f7dc4bad04</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="VSTAHostName" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" />
+        <Host Name="ScriptTask" />
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST130</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
           <BinaryItem
             Name="ST_bf3b5ff7b77148fdac2950f7dc4bad04.dll">TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
@@ -10610,7 +10610,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       DTS:refId="Package\Postgresql Alemania"
       DTS:CreationName="STOCK:SEQUENCE"
       DTS:Description="Sequence Container"
-      DTS:DTSID="{587AC0A7-BE6A-4608-8919-AC5AE560D2D8}"
+      DTS:DTSID="{064f3eb2-8c05-4b47-85aa-4c2f46c05ea2}"
       DTS:ExecutableType="STOCK:SEQUENCE"
       DTS:LocaleID="-1"
       DTS:ObjectName="Postgresql Alemania">
@@ -10620,7 +10620,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           DTS:refId="Package\Postgresql Alemania\Execute SQL Task"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
-          DTS:DTSID="{b593de67-aa88-4814-9aae-6f637447a174}"
+          DTS:DTSID="{4b416dd2-1996-437c-98fa-10a42d99dc00}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
           DTS:ObjectName="Execute SQL Task"
@@ -10642,7 +10642,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           DTS:refId="Package\Postgresql Alemania\Personas"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{3AFF00F9-1F60-47C7-87EC-3FC8C5E6E049}"
+          DTS:DTSID="{e4da442f-51dc-45c2-ae81-835baadadbf6}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="Personas"
@@ -10653,11 +10653,1418 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
               version="1">
               <components>
                 <component
-                  refId="Package\Postgresql Alemania\Personas\ADO NET Source"
+                  refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="convertir fecha y crear sexo Postgresql"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Inputs[Derived Column Input].Columns[givenname]"
+                          cachedDataType="wstr"
+                          cachedLength="20"
+                          cachedName="givenname"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output].Columns[sexo]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          length="20"
+                          lineageId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output].Columns[sexo]"
+                          name="sexo"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[REPLACE]([SUBSTRING](#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]},[LEN](#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]}),[LEN](#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]})),"a","F")</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">REPLACE(SUBSTRING(givenname,LEN(givenname),LEN(givenname)),"a","F")</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Postgresql Alemania\Personas\Data Conversion 1"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Data Conversion"
+                  name="Data Conversion 1"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input]"
+                      name="Data Conversion Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[number]"
+                          cachedDataType="i4"
+                          cachedName="number"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[number]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[givenname]"
+                          cachedDataType="wstr"
+                          cachedLength="20"
+                          cachedName="givenname"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[surname]"
+                          cachedDataType="wstr"
+                          cachedLength="23"
+                          cachedName="surname"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[surname]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[birthday]"
+                          cachedDataType="wstr"
+                          cachedLength="10"
+                          cachedName="birthday"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[birthday]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[streetaddress]"
+                          cachedDataType="wstr"
+                          cachedLength="100"
+                          cachedName="streetaddress"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[streetaddress]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[emailaddress]"
+                          cachedDataType="wstr"
+                          cachedLength="100"
+                          cachedName="emailaddress"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[emailaddress]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[sexo]"
+                          cachedDataType="wstr"
+                          cachedLength="20"
+                          cachedName="sexo"
+                          lineageId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output].Columns[sexo]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input].Columns[Number]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="Number"
+                          lineageId="Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0].Columns[Number]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output]"
+                      exclusionGroup="1"
+                      name="Data Conversion Output"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[idCliente]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[idCliente]"
+                          name="idCliente"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[number]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New givenname]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="20"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New givenname]"
+                          name="New givenname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New surname]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="23"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New surname]"
+                          name="New surname"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[surname]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New birthday]"
+                          dataType="date"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New birthday]"
+                          name="New birthday"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[birthday]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New streetaddress]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New streetaddress]"
+                          name="New streetaddress"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[streetaddress]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New emailaddress]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New emailaddress]"
+                          name="New emailaddress"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[emailaddress]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New sexo]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="1"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New sexo]"
+                          name="New sexo"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output].Columns[sexo]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New Number]"
+                          codePage="1252"
+                          dataType="str"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="50"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New Number]"
+                          name="New Number"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0].Columns[Number]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Data Conversion Error Output"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Postgresql Alemania\Personas\Hombres postgresql"
+                  componentClassID="Microsoft.ManagedComponentHost"
+                  contactInfo="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum.;Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;10"
+                  description="Includes and runs custom script code. For example, apply a business rule that limits the range of valid values in an &quot;income&quot; column or add values in two columns and calculate the average of the sum."
+                  name="Hombres postgresql"
+                  version="10">
+                  <properties>
+                    <property
+                      dataType="System.String"
+                      description="Stores the source code of the component"
+                      isArray="true"
+                      name="SourceCode"
+                      state="cdata">
+                      <arrayElements
+                        arrayElementCount="30">
+                        <arrayElement
+                          dataType="System.String"><![CDATA[ComponentWrapper.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services component wrapper
+*  This module defines the base class for your component
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+
+public class UserComponent: ScriptComponent
+{
+    public Connections Connections;
+    public Variables Variables;
+    public UserComponent()
+    {
+        Connections = new Connections(this);
+        Variables = new Variables(this);
+    }
+
+    public override void ProcessInput(int InputID, string InputName, PipelineBuffer Buffer, OutputNameMap OutputMap)
+    {
+
+        if (InputName.Equals(@"Input 0", StringComparison.Ordinal))
+        {
+            Input0_ProcessInput(new Input0Buffer(Buffer, GetColumnIndexes(InputID), OutputMap));
+        }
+
+    }
+
+    public virtual void Input0_ProcessInput(Input0Buffer Buffer)
+    {
+        while (Buffer.NextRow())
+        {
+            Input0_ProcessInputRow(Buffer);
+        }
+    }
+
+    public virtual void Input0_ProcessInputRow(Input0Buffer Row)
+    {
+    }
+
+}
+
+public class Connections
+{
+    ScriptComponent ParentComponent;
+
+    public Connections(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+
+public class Variables
+{
+    ScriptComponent ParentComponent;
+
+    public Variables(ScriptComponent Component)
+    {
+        ParentComponent = Component;
+    }
+
+}
+]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Properties\Resources.resx]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[main.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[#region Help:  Introduction to the Script Component
+/* The Script Component allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services data flow.
+ *
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script component. */
+#endregion
+
+#region Namespaces
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+using Microsoft.SqlServer.Dts.Runtime.Wrapper;
+#endregion
+
+/// <summary>
+/// This is the class to which to add your code.  Do not change the name, attributes, or parent
+/// of this class.
+/// </summary>
+[Microsoft.SqlServer.Dts.Pipeline.SSISScriptComponentEntryPointAttribute]
+public class ScriptMain : UserComponent
+{
+    Random rnd = new Random();
+    #region Help:  Using Integration Services variables and parameters
+    /* To use a variable in this script, first ensure that the variable has been added to
+     * either the list contained in the ReadOnlyVariables property or the list contained in
+     * the ReadWriteVariables property of this script component, according to whether or not your
+     * code needs to write into the variable.  To do so, save this script, close this instance of
+     * Visual Studio, and update the ReadOnlyVariables and ReadWriteVariables properties in the
+     * Script Transformation Editor window.
+     * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+     *
+     * Example of reading from a variable or parameter:
+     *  DateTime startTime = Variables.MyStartTime;
+     *
+     * Example of writing to a variable:
+     *  Variables.myStringVariable = "new value";
+     */
+    #endregion
+
+    #region Help:  Using Integration Services Connnection Managers
+    /* Some types of connection managers can be used in this script component.  See the help topic
+     * "Working with Connection Managers Programatically" for details.
+     *
+     * To use a connection manager in this script, first ensure that the connection manager has
+     * been added to either the list of connection managers on the Connection Managers page of the
+     * script component editor.  To add the connection manager, save this script, close this instance of
+     * Visual Studio, and add the Connection Manager to the list.
+     *
+     * If the component needs to hold a connection open while processing rows, override the
+     * AcquireConnections and ReleaseConnections methods.
+     * 
+     * Example of using an ADO.Net connection manager to acquire a SqlConnection:
+     *  object rawConnection = Connections.SalesDB.AcquireConnection(transaction);
+     *  SqlConnection salesDBConn = (SqlConnection)rawConnection;
+     *
+     * Example of using a File connection manager to acquire a file path:
+     *  object rawConnection = Connections.Prices_zip.AcquireConnection(transaction);
+     *  string filePath = (string)rawConnection;
+     *
+     * Example of releasing a connection manager:
+     *  Connections.SalesDB.ReleaseConnection(rawConnection);
+     */
+    #endregion
+
+    #region Help:  Firing Integration Services Events
+    /* This script component can fire events.
+     *
+     * Example of firing an error event:
+     *  ComponentMetaData.FireError(10, "Process Values", "Bad value", "", 0, out cancel);
+     *
+     * Example of firing an information event:
+     *  ComponentMetaData.FireInformation(10, "Process Values", "Processing has started", "", 0, fireAgain);
+     *
+     * Example of firing a warning event:
+     *  ComponentMetaData.FireWarning(10, "Process Values", "No rows were received", "", 0);
+     */
+    #endregion
+
+    /// <summary>
+    /// This method is called once, before rows begin to be processed in the data flow.
+    ///
+    /// You can remove this method if you don't need to do anything here.
+    /// </summary>
+    public override void PreExecute()
+    {
+        base.PreExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called after all the rows have passed through this component.
+    ///
+    /// You can delete this method if you don't need to do anything here.
+    /// </summary>
+    public override void PostExecute()
+    {
+        base.PostExecute();
+        /*
+         * Add your code here
+         */
+    }
+
+    /// <summary>
+    /// This method is called once for every row that passes through the component from Input0.
+    ///
+    /// Example of reading a value from a column in the the row:
+    ///  string zipCode = Row.ZipCode
+    ///
+    /// Example of writing a value to a column in the row:
+    ///  Row.ZipCode = zipCode
+    /// </summary>
+    /// <param name="Row">The row that is currently passing through the component</param>
+    public override void Input0_ProcessInputRow(Input0Buffer Row)
+    { 
+        
+        if (!Row.sexo.Equals("F"))
+        {
+            
+            int day = rnd.Next(1, 31);
+            int month = rnd.Next(1, 12);
+            int year = rnd.Next(1949, 1998);
+            int number = rnd.Next(100, 999);
+            Row.sexo = "M";
+            Row.Number = "49" + "30" + number;
+            return;
+        }
+        else
+        {
+            
+            int day = rnd.Next(1, 31);
+            int month = rnd.Next(1, 12);
+            int year = rnd.Next(1949, 1998);
+            int number = rnd.Next(100, 999);
+            Row.sexo = "F";
+            Row.Number = "49" + "30" + number;
+            return;
+
+        }
+    }
+
+}
+]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[BufferWrapper.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[/* THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT!
+*  Microsoft SQL Server Integration Services buffer wrappers
+*  This module defines classes for accessing data flow buffers
+*  THIS IS AUTO-GENERATED CODE THAT WILL BE OVERWRITTEN! DO NOT EDIT! */
+
+
+
+using System;
+using System.Data;
+using Microsoft.SqlServer.Dts.Pipeline;
+using Microsoft.SqlServer.Dts.Pipeline.Wrapper;
+
+public class Input0Buffer: ScriptBuffer
+
+{
+    public Input0Buffer(PipelineBuffer Buffer, int[] BufferColumnIndexes, OutputNameMap OutputMap)
+        : base(Buffer, BufferColumnIndexes, OutputMap)
+    {
+    }
+
+    public String sexo
+    {
+        get
+        {
+            return Buffer.GetString(BufferColumnIndexes[0]);
+        }
+        set
+        {
+            this[0] = value;
+        }
+    }
+    public bool sexo_IsNull
+    {
+        get
+        {
+            return IsNull(0);
+        }
+        set
+        {
+            if (value)
+            {
+                SetNull(0);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    public String Number
+    {
+        set
+        {
+            this[1] = value;
+        }
+    }
+    public bool Number_IsNull
+    {
+        set
+        {
+            if (value)
+            {
+                SetNull(1);
+            }
+            else
+            {
+                throw new InvalidOperationException("IsNull property cannot be set to False. Assign a value to the column instead.");
+            }
+        }
+    }
+
+    new public bool NextRow()
+    {
+        return base.NextRow();
+    }
+
+    new public bool EndOfRowset()
+    {
+        return base.EndOfRowset();
+    }
+
+}
+]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Properties\Settings.Designer.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_3f291fd52f014ce5adc12667323c422b.Properties.Settings.get_Default():SC_3f291fd52f014ce5adc12667323c422b.Properties.Sett" +
+    "ings")]
+
+namespace SC_3f291fd52f014ce5adc12667323c422b.Properties {
+    
+    
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
+        
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+        
+        public static Settings Default {
+            get {
+                return defaultInstance;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[SC_3f291fd52f014ce5adc12667323c422b.csproj]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="utf-8"?><Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"><PropertyGroup><ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids><Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration><Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform><ProductVersion>8.0.30703</ProductVersion><SchemaVersion>2.0</SchemaVersion><ProjectGuid>{42c4fd43-b238-4826-83a1-671929ac6d21}</ProjectGuid><OutputType>Library</OutputType><AppDesignerFolder>Properties</AppDesignerFolder><RootNamespace>SC_3f291fd52f014ce5adc12667323c422b</RootNamespace><AssemblyName>SC_8D91ACBB1CB347049186BAB3DFC59ACA</AssemblyName><TargetFrameworkVersion>v4.5</TargetFrameworkVersion><FileAlignment>512</FileAlignment><ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch></PropertyGroup><PropertyGroup Condition=" '$(Configuration)' == 'Debug' "><DebugSymbols>true</DebugSymbols><DebugType>full</DebugType><Optimize>false</Optimize><OutputPath>.\bin\Debug\</OutputPath><EnableUnmanagedDebugging>false</EnableUnmanagedDebugging><DefineConstants>DEBUG;TRACE</DefineConstants><ErrorReport>prompt</ErrorReport><WarningLevel>4</WarningLevel></PropertyGroup><PropertyGroup Condition=" '$(Configuration)' == 'Release' "><DebugSymbols>false</DebugSymbols><Optimize>true</Optimize><OutputPath>.\bin\Release\</OutputPath><EnableUnmanagedDebugging>false</EnableUnmanagedDebugging><DefineConstants>TRACE</DefineConstants><ErrorReport>prompt</ErrorReport><WarningLevel>4</WarningLevel></PropertyGroup><ItemGroup><Reference Include="System" /><Reference Include="System.Data" /><Reference Include="System.Windows.Forms" /><Reference Include="System.Xml" /><Reference Include="Microsoft.SqlServer.TxScript, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" /><Reference Include="Microsoft.SqlServer.DTSRuntimeWrap, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" /><Reference Include="Microsoft.SqlServer.DTSPipelineWrap, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" /><Reference Include="Microsoft.SqlServer.PipelineHost, Version=13.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" /><Compile Include="main.cs" /><Compile Include="BufferWrapper.cs" /><Compile Include="ComponentWrapper.cs" /></ItemGroup><ItemGroup><AppDesigner Include="Properties\" /><Compile Include="Properties\AssemblyInfo.cs"><SubType>Code</SubType></Compile><EmbeddedResource Include="Properties\Resources.resx"><Generator>ResXFileCodeGenerator</Generator><LastGenOutput>Resources.Designer.cs</LastGenOutput></EmbeddedResource><Compile Include="Properties\Resources.Designer.cs"><AutoGen>True</AutoGen><DependentUpon>Resources.resx</DependentUpon></Compile><None Include="Properties\Settings.settings"><Generator>SettingsSingleFileGenerator</Generator><LastGenOutput>Settings.Designer.cs</LastGenOutput></None><Compile Include="Properties\Settings.Designer.cs"><AutoGen>True</AutoGen><DependentUpon>Settings.settings</DependentUpon></Compile></ItemGroup><!-- Include the build rules for a C# project.--><Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" /><!-- This section defines VSTA properties that describe the host-changable project properties. --><ProjectExtensions><VisualStudio><FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}"><ProjectProperties HostName="ScriptComponent" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoExeName="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" /><Host Name="ScriptComponent" GeneratedNamespace="SC_3f291fd52f014ce5adc12667323c422b" IconIndex="0"></Host><ProjectClient><HostIdentifier>SSIS_SC130</HostIdentifier></ProjectClient></FlavorProperties></VisualStudio></ProjectExtensions></Project>]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Project]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF16LE]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="3.0" schemaVersion="1.0">
+	<msb:PropertyGroup>
+		<msb:Language>msBuild</msb:Language>
+		<msb:CodeName>SC_3f291fd52f014ce5adc12667323c422b</msb:CodeName>
+		<msb:DisplayName>SC_3f291fd52f014ce5adc12667323c422b</msb:DisplayName>
+		<msb:ProjectId>{9B9A2764-39E7-4133-BE47-3E3B354EDF2D}</msb:ProjectId>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:Project Include="SC_3f291fd52f014ce5adc12667323c422b.csproj"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+		<msb:File Include="BufferWrapper.cs"/>
+		<msb:File Include="main.cs"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="ComponentWrapper.cs"/>
+	</msb:ItemGroup>
+</c:Project>]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Properties\AssemblyInfo.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("SC_3f291fd52f014ce5adc12667323c422b")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("SC_3f291fd52f014ce5adc12667323c422b")]
+[assembly: AssemblyCopyright("Copyright @  2016")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.0.0")]
+]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Properties\Settings.settings]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[Properties\Resources.Designer.cs]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[UTF8]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_3f291fd52f014ce5adc12667323c422b.Properties.Resources.get_ResourceManager():System.Resources.Resou" +
+    "rceManager")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_3f291fd52f014ce5adc12667323c422b.Properties.Resources.get_Culture():System.Globalization.CultureIn" +
+    "fo")]
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope="member", Target="SC_3f291fd52f014ce5adc12667323c422b.Properties.Resources.set_Culture(System.Globalization.CultureInfo" +
+    "):Void")]
+
+namespace SC_3f291fd52f014ce5adc12667323c422b.Properties {
+    
+    
+    /// <summary>
+    ///   A strongly-typed resource class, for looking up localized strings, etc.
+    /// </summary>
+    // This class was auto-generated by the StronglyTypedResourceBuilder
+    // class via a tool like ResGen or Visual Studio.
+    // To add or remove a member, edit your .ResX file then rerun ResGen
+    // with the /str option, or rebuild your VS project.
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        
+        /// <summary>
+        ///   Returns the cached ResourceManager instance used by this class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if ((resourceMan == null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SC_3f291fd52f014ce5adc12667323c422b.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        
+        /// <summary>
+        ///   Overrides the current thread's CurrentUICulture property for all
+        ///   resource lookups using this strongly typed resource class.
+        /// </summary>
+        [global::System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+    }
+}
+]]></arrayElement>
+                      </arrayElements>
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Stores the binary representation of the component"
+                      isArray="true"
+                      name="BinaryCode"
+                      state="cdata">
+                      <arrayElements
+                        arrayElementCount="2">
+                        <arrayElement
+                          dataType="System.String"><![CDATA[SC_8D91ACBB1CB347049186BAB3DFC59ACA.dll]]></arrayElement>
+                        <arrayElement
+                          dataType="System.String"><![CDATA[TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAgAAAAA4fug4AtAnNIbgBTM0hVGhpcyBwcm9ncmFtIGNhbm5vdCBiZSBydW4gaW4gRE9TIG1v
+ZGUuDQ0KJAAAAAAAAABQRQAATAEDAFwrAVcAAAAAAAAAAOAAIiALATAAABQAAAAIAAAAAAAAVjMA
+AAAgAAAAQAAAAAAAEAAgAAAAAgAABAAAAAAAAAAGAAAAAAAAAACAAAAAAgAAAAAAAAMAYIUAABAA
+ABAAAAAAEAAAEAAAAAAAABAAAAAAAAAAAAAAAAQzAABPAAAAAEAAAEgEAAAAAAAAAAAAAAAAAAAA
+AAAAAGAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAIAAACAAAAAAAAAAAAAAACCAAAEgAAAAAAAAAAAAAAC50ZXh0AAAAXBMAAAAgAAAAFAAAAAIA
+AAAAAAAAAAAAAAAAACAAAGAucnNyYwAAAEgEAAAAQAAAAAYAAAAWAAAAAAAAAAAAAAAAAABAAABA
+LnJlbG9jAAAMAAAAAGAAAAACAAAAHAAAAAAAAAAAAAAAAAAAQAAAQgAAAAAAAAAAAAAAAAAAAAA4
+MwAAAAAAAEgAAAACAAUAtCIAAJgPAAABAAAAAAAAAEwyAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAB4CKBAAAAoqHgIoEQAACioTMAMA5AAAAAEAABEDbwYAAAZy
+AQAAcG8SAAAKLWkCewEAAAQXHx9vEwAACiYCewEAAAQXHwxvEwAACiYCewEAAAQgnQcAACDOBwAA
+bxMAAAomAnsBAAAEH2Qg5wMAAG8TAAAKCgNyBQAAcG8HAAAGA3IJAABwBowcAAABKBQAAApvCgAA
+BioCewEAAAQXHx9vEwAACiYCewEAAAQXHwxvEwAACiYCewEAAAQgnQcAACDOBwAAbxMAAAomAnsB
+AAAEH2Qg5wMAAG8TAAAKCwNyAQAAcG8HAAAGA3IJAABwB4wcAAABKBQAAApvCgAABipKAnMVAAAK
+fQEAAAQCKA4AAAYqKgIDBAUoFgAACipSAnsXAAAKAnsYAAAKFpRvGQAACiomAhYDKBoAAAoqIgIW
+KBsAAAoqWgMsCAIWKBwAAAoqchMAAHBzHQAACnomAhcDKBoAAAoqWgMsCAIXKBwAAAoqchMAAHBz
+HQAACnoeAigeAAAKKh4CKB8AAAoqfgIoIAAACgICcxIAAAZ9AgAABAICcxMAAAZ9AwAABCqSBHKw
+AABwGm8hAAAKLBUCBQIDKCIAAAoOBHMFAAAGbxAAAAYqSisHAgNvEQAABgNvDAAABi3xKgYqOgIo
+IwAACgIDfQQAAAQqOgIoIwAACgIDfQUAAAQqHgIoIwAACiqufgYAAAQtHnLAAABw0AcAAAIoJAAA
+Cm8lAAAKcyYAAAqABgAABH4GAAAEKhp+BwAABCoeAoAHAAAEKhp+CAAABCoeAignAAAKKi5zGQAA
+BoAIAAAEKkJTSkIBAAEAAAAAAAwAAAB2NC4wLjMwMzE5AAAAAAUAbAAAAMgFAAAjfgAANAYAAGAG
+AAAjU3RyaW5ncwAAAACUDAAANAEAACNVUwDIDQAAEAAAACNHVUlEAAAA2A0AAMABAAAjQmxvYgAA
+AAAAAAACAAABVxWiAQkBAAAA+gEzABYAAAEAAAAhAAAACAAAAAgAAAAaAAAAEQAAACcAAAAQAAAA
+AQAAAAMAAAAHAAAACgAAAAEAAAAEAAAAAQAAAAAA9wIBAAAAAAAGAO4BjAQGAIICjAQGADoBeQQP
+AAAFAAAGAGcBsQMGANEBsQMGALIBsQMGAGkCsQMGAA4CsQMGACcCsQMGAH4BsQMGAJkBvQIKAEIC
+hwAGAGkDYgMKAEsEhwAOADwEhwAKAAwEhwAKAM0FhwAGAJAFYgMGAB0BeQQGAFwErAQGAO4DnAMS
+AO0A4QISAE4B4QISANUAhwMGAAIBjAQGANoCYgMGAAEAYgMGAMMDYgMGAN0DYgMGAKgAYgMGAFkA
+YgMGAFcGsQMAAAAABwAAAAAAAQABAAEAEAB8AwAAEAABAAEAAQAQAC8EAAA9AAIABQABABAArwUA
+AEkAAgAOAAEAEAB9BQAATQAEABIAAQAQAD4FAABNAAUAEwAAABAAswQPBU0ABgAUAAABEABtBQ8F
+ZQAIABgAAQBFAIwABgB9BZAABgA+BZQAAQC9BZgAAQC9BZgAEQBwA5wAEQDFAKAAEQBJAKQAUCAA
+AAAAxgCgAgYAAQBYIAAAAADGAKsCBgABAGAgAAAAAMYANAaoAAEAUCEAAAAAhhhsBAYAAgBjIQAA
+AACGGGwEMQACAG4hAAAAAIYI+gOuAAUAgyEAAAAAhggDBBAABQCNIQAAAACGCB8DUwAGAJYhAAAA
+AIYILwOyAAYArSEAAAAAhggkBBAABwC3IQAAAACGCD8DsgAIAM4hAAAAAIYASwZTAAkA1iEAAAAA
+hgCXBVMACQDeIQAAAACGGGwEBgAJAP4hAAAAAMYAIga3AAkAIyIAAAAAxgEbBqgADQA2IgAAAADG
+ATQGqAAOADgiAAAAAIYYbATBAA8ARyIAAAAAhhhsBMEAEABWIgAAAACDGGwEBgARAF4iAAAAAJMI
+WATHABEAiiIAAAAAkwitAMwAEQCRIgAAAACTCLkA0QARAJkiAAAAAJYIowXXABIAoCIAAAAAhhhs
+BAYAEgCoIgAAAACRGHIE3AASAAAAAQBPBgAAAQBRBAAAAgBIBQAAAwAaBAAAAQC3AgAAAQC3AgAA
+AQC3AgAAAQC3AgAAAQA0AAAAAgB9AAAAAwBRBAAABAAaBAAAAQBRBAAAAQBPBgAAAQDTBQAAAQDT
+BQAAAQC3AgkAbAQBABEAbAQGABkAbAQKACkAbAQQADEAbAQQADkAbAQQAEEAbAQQAEkAbAQQAFEA
+bAQQAFkAbAQQAGEAbAQQAGkAbAQGAKEAbAQGAMEAbAQVANEAbAQGAJEAoAIGAJEAqwIGANkAdgUg
+AHEALwYlANkAiQUrAHEAbAQGAHkAbAQxAHkAUQQ7AHkASAU/AIEA1wJDAHkAWQNIAHkASgNOAHkA
+UQMBAOkAbAQQAHkASwZTAHkAlwVTAJEAbAQGANkAdgVXAJEAXAVeAJkAbAQGAPkAawBkAPkAUwZs
+AKkAbARyAMkAbAQGAC4ACwD3AC4AEwAAAS4AGwAfAS4AIwAoAS4AKwBRAS4AMwBRAS4AOwBRAS4A
+QwAoAS4ASwBXAS4AUwBRAS4AWwBuAUMAYwC4AakAcwAfAckAcwAfAeMAawC4AQEBewC4ARsAAwAB
+AAcABQAIAAcAAAAHBOAAAAAzA+QAAAAoBOAAAABDA+QAAABcBOgAAADNAO0AAACnBfIAAgAGAAMA
+AQAHAAMAAgAIAAUAAQAJAAUAAQAKAAcAAQALAAkAAgAVAAsAAgAWAA0AAQAXAA0AAgAYAA8ABIAA
+AAEAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAAHoAPAAAAAAADQAAAAAAAAAAAAAAgwDdBQAA
+AAANAAAAAAAAAAAAAACDAPoFAAAAAAQAAAAAAAAAAAAAAHoAYgMAAAAAAAAAAAEAAAC9BAAAAAAA
+SW50MzIAPE1vZHVsZT4AU0NfOEQ5MUFDQkIxQ0IzNDcwNDkxODZCQUIzREZDNTlBQ0EASW5wdXRJ
+RABtc2NvcmxpYgBybmQAZGVmYXVsdEluc3RhbmNlAFJ1bnRpbWVUeXBlSGFuZGxlAEdldFR5cGVG
+cm9tSGFuZGxlAElucHV0TmFtZQBNaWNyb3NvZnQuU3FsU2VydmVyLkR0cy5QaXBlbGluZQBUeXBl
+AGdldF9DdWx0dXJlAHNldF9DdWx0dXJlAHJlc291cmNlQ3VsdHVyZQBBcHBsaWNhdGlvblNldHRp
+bmdzQmFzZQBFZGl0b3JCcm93c2FibGVTdGF0ZQBDb21waWxlckdlbmVyYXRlZEF0dHJpYnV0ZQBE
+ZWJ1Z2dlck5vblVzZXJDb2RlQXR0cmlidXRlAERlYnVnZ2FibGVBdHRyaWJ1dGUARWRpdG9yQnJv
+d3NhYmxlQXR0cmlidXRlAEFzc2VtYmx5VGl0bGVBdHRyaWJ1dGUAQXNzZW1ibHlUcmFkZW1hcmtB
+dHRyaWJ1dGUAVGFyZ2V0RnJhbWV3b3JrQXR0cmlidXRlAEFzc2VtYmx5Q29uZmlndXJhdGlvbkF0
+dHJpYnV0ZQBBc3NlbWJseURlc2NyaXB0aW9uQXR0cmlidXRlAENvbXBpbGF0aW9uUmVsYXhhdGlv
+bnNBdHRyaWJ1dGUAQXNzZW1ibHlQcm9kdWN0QXR0cmlidXRlAEFzc2VtYmx5Q29weXJpZ2h0QXR0
+cmlidXRlAFNTSVNTY3JpcHRDb21wb25lbnRFbnRyeVBvaW50QXR0cmlidXRlAEFzc2VtYmx5Q29t
+cGFueUF0dHJpYnV0ZQBSdW50aW1lQ29tcGF0aWJpbGl0eUF0dHJpYnV0ZQBQcmVFeGVjdXRlAFBv
+c3RFeGVjdXRlAHZhbHVlAFN5c3RlbS5SdW50aW1lLlZlcnNpb25pbmcAR2V0U3RyaW5nAFN5c3Rl
+bS5Db21wb25lbnRNb2RlbABTQ184RDkxQUNCQjFDQjM0NzA0OTE4NkJBQjNERkM1OUFDQS5kbGwA
+Z2V0X3NleG9fSXNOdWxsAHNldF9zZXhvX0lzTnVsbABzZXRfTnVtYmVyX0lzTnVsbABTZXROdWxs
+AHNldF9JdGVtAFN5c3RlbQBSYW5kb20AcmVzb3VyY2VNYW4AU2NyaXB0TWFpbgBTeXN0ZW0uQ29u
+ZmlndXJhdGlvbgBTeXN0ZW0uR2xvYmFsaXphdGlvbgBTeXN0ZW0uUmVmbGVjdGlvbgBJbnZhbGlk
+T3BlcmF0aW9uRXhjZXB0aW9uAFN0cmluZ0NvbXBhcmlzb24AQ3VsdHVyZUluZm8AZ2V0X3NleG8A
+c2V0X3NleG8AT3V0cHV0TmFtZU1hcABPdXRwdXRNYXAAc2V0X051bWJlcgBJbnB1dDBCdWZmZXIA
+UGlwZWxpbmVCdWZmZXIAU2NyaXB0QnVmZmVyAGdldF9SZXNvdXJjZU1hbmFnZXIALmN0b3IALmNj
+dG9yAFN5c3RlbS5EaWFnbm9zdGljcwBTeXN0ZW0uUnVudGltZS5Db21waWxlclNlcnZpY2VzAFN5
+c3RlbS5SZXNvdXJjZXMAU0NfM2YyOTFmZDUyZjAxNGNlNWFkYzEyNjY3MzIzYzQyMmIuUHJvcGVy
+dGllcy5SZXNvdXJjZXMucmVzb3VyY2VzAERlYnVnZ2luZ01vZGVzAFNDXzNmMjkxZmQ1MmYwMTRj
+ZTVhZGMxMjY2NzMyM2M0MjJiLlByb3BlcnRpZXMAVmFyaWFibGVzAEJ1ZmZlckNvbHVtbkluZGV4
+ZXMAR2V0Q29sdW1uSW5kZXhlcwBTZXR0aW5ncwBFcXVhbHMAQ29ubmVjdGlvbnMAQ29uY2F0AE9i
+amVjdABFbmRPZlJvd3NldABnZXRfRGVmYXVsdABVc2VyQ29tcG9uZW50AFBhcmVudENvbXBvbmVu
+dABTY3JpcHRDb21wb25lbnQATWljcm9zb2Z0LlNxbFNlcnZlci5UeFNjcmlwdABNaWNyb3NvZnQu
+U3FsU2VydmVyLlBpcGVsaW5lSG9zdABJbnB1dDBfUHJvY2Vzc0lucHV0AE5leHQASW5wdXQwX1By
+b2Nlc3NJbnB1dFJvdwBOZXh0Um93AGdldF9Bc3NlbWJseQAAA0YAAANNAAAJNAA5ADMAMAAAgJtJ
+AHMATgB1AGwAbAAgAHAAcgBvAHAAZQByAHQAeQAgAGMAYQBuAG4AbwB0ACAAYgBlACAAcwBlAHQA
+IAB0AG8AIABGAGEAbABzAGUALgAgAEEAcwBzAGkAZwBuACAAYQAgAHYAYQBsAHUAZQAgAHQAbwAg
+AHQAaABlACAAYwBvAGwAdQBtAG4AIABpAG4AcwB0AGUAYQBkAC4AAA9JAG4AcAB1AHQAIAAwAABx
+UwBDAF8AMwBmADIAOQAxAGYAZAA1ADIAZgAwADEANABjAGUANQBhAGQAYwAxADIANgA2ADcAMwAy
+ADMAYwA0ADIAMgBiAC4AUAByAG8AcABlAHIAdABpAGUAcwAuAFIAZQBzAG8AdQByAGMAZQBzAAAA
+AMOIGl8t5/xHpiMz2ubEOm4ABCABAQgDIAABBSABARERBCABAQ4FIAEBEV0EBwIICAQgAQIOBSAC
+CAgIBQACDhwcCSADARJBHQgSRQMGEkEDBh0IBCABDggFIAIBCBwEIAECCAMgAAIGIAICDhF5BSAB
+HQgIBwABEn0RgIEFIAASgIUHIAIBDhKAhQi3elxWGTTgiQiJhF3NgIDMkQMGEjkDBhIUAwYSGAMG
+EkkDBhJVAwYSWQMGEiAFIAEBEgwDIAAOBCABAQIJIAQBCA4SQRJFBSABARJJBAAAElUEAAASWQUA
+AQESWQQAABIgAwAAAQMoAA4DKAACBAgAElUECAASWQQIABIgCAEACAAAAAAAHgEAAQBUAhZXcmFw
+Tm9uRXhjZXB0aW9uVGhyb3dzAQgBAAIAAAAAACgBACNTQ18zZjI5MWZkNTJmMDE0Y2U1YWRjMTI2
+NjczMjNjNDIyYgAABQEAAAAAFgEAEUNvcHlyaWdodCBAICAyMDE2AABJAQAaLk5FVEZyYW1ld29y
+ayxWZXJzaW9uPXY0LjUBAFQOFEZyYW1ld29ya0Rpc3BsYXlOYW1lEi5ORVQgRnJhbWV3b3JrIDQu
+NQQBAAAAAAAAtAAAAM7K774BAAAAkQAAAGxTeXN0ZW0uUmVzb3VyY2VzLlJlc291cmNlUmVhZGVy
+LCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRv
+a2VuPWI3N2E1YzU2MTkzNGUwODkjU3lzdGVtLlJlc291cmNlcy5SdW50aW1lUmVzb3VyY2VTZXQC
+AAAAAAAAAAAAAABQQURQQURQtAAAACwzAAAAAAAAAAAAAEYzAAAAIAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAA4MwAAAAAAAAAAAAAAAF9Db3JEbGxNYWluAG1zY29yZWUuZGxsAAAAAAD/JQAgABAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAQAQAAAAGAAAgAAAAAAAAAAAAAAAAAAAAQABAAAAMAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAA
+SAAAAFhAAADsAwAAAAAAAAAAAADsAzQAAABWAFMAXwBWAEUAUgBTAEkATwBOAF8ASQBOAEYATwAA
+AAAAvQTv/gAAAQAAAAEAAAAAAAAAAQAAAAAAPwAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAEQA
+AAABAFYAYQByAEYAaQBsAGUASQBuAGYAbwAAAAAAJAAEAAAAVAByAGEAbgBzAGwAYQB0AGkAbwBu
+AAAAAAAAALAETAMAAAEAUwB0AHIAaQBuAGcARgBpAGwAZQBJAG4AZgBvAAAAKAMAAAEAMAAwADAA
+MAAwADQAYgAwAAAAGgABAAEAQwBvAG0AbQBlAG4AdABzAAAAAAAAACIAAQABAEMAbwBtAHAAYQBu
+AHkATgBhAG0AZQAAAAAAAAAAAHAAJAABAEYAaQBsAGUARABlAHMAYwByAGkAcAB0AGkAbwBuAAAA
+AABTAEMAXwAzAGYAMgA5ADEAZgBkADUAMgBmADAAMQA0AGMAZQA1AGEAZABjADEAMgA2ADYANwAz
+ADIAMwBjADQAMgAyAGIAAAAwAAgAAQBGAGkAbABlAFYAZQByAHMAaQBvAG4AAAAAADEALgAwAC4A
+MAAuADAAAABwACgAAQBJAG4AdABlAHIAbgBhAGwATgBhAG0AZQAAAFMAQwBfADgARAA5ADEAQQBD
+AEIAQgAxAEMAQgAzADQANwAwADQAOQAxADgANgBCAEEAQgAzAEQARgBDADUAOQBBAEMAQQAuAGQA
+bABsAAAASAASAAEATABlAGcAYQBsAEMAbwBwAHkAcgBpAGcAaAB0AAAAQwBvAHAAeQByAGkAZwBo
+AHQAIABAACAAIAAyADAAMQA2AAAAKgABAAEATABlAGcAYQBsAFQAcgBhAGQAZQBtAGEAcgBrAHMA
+AAAAAAAAAAB4ACgAAQBPAHIAaQBnAGkAbgBhAGwARgBpAGwAZQBuAGEAbQBlAAAAUwBDAF8AOABE
+ADkAMQBBAEMAQgBCADEAQwBCADMANAA3ADAANAA5ADEAOAA2AEIAQQBCADMARABGAEMANQA5AEEA
+QwBBAC4AZABsAGwAAABoACQAAQBQAHIAbwBkAHUAYwB0AE4AYQBtAGUAAAAAAFMAQwBfADMAZgAy
+ADkAMQBmAGQANQAyAGYAMAAxADQAYwBlADUAYQBkAGMAMQAyADYANgA3ADMAMgAzAGMANAAyADIA
+YgAAADQACAABAFAAcgBvAGQAdQBjAHQAVgBlAHIAcwBpAG8AbgAAADEALgAwAC4AMAAuADAAAAA4
+AAgAAQBBAHMAcwBlAG0AYgBsAHkAIABWAGUAcgBzAGkAbwBuAAAAMQAuADAALgAwAC4AMAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAMAAAAWDMAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
+                      </arrayElements>
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the Microsoft Visual Studio Tools for Applications project. Project names must be unique within a package."
+                      name="VSTAProjectName"
+                      typeConverter="NOTBROWSABLE">SC_8d91acbb1cb347049186bab3dfc59aca</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the programming language used by the script."
+                      name="ScriptLanguage"
+                      typeConverter="Microsoft.SqlServer.VSTAHosting.ScriptingLanguages">CSharp</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a comma-separated list of read-only variables."
+                      name="ReadOnlyVariables"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIVariablePickerDlg"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies a comma-separated list of read/write variables."
+                      name="ReadWriteVariables"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ScriptUIWriteableVariablePickerDlg"></property>
+                    <property
+                      dataType="System.String"
+                      description="List of breakpoints present on the script."
+                      isArray="true"
+                      name="BreakpointCollection"
+                      typeConverter="NOTBROWSABLE">
+                      <arrayElements
+                        arrayElementCount="0" />
+                    </property>
+                    <property
+                      dataType="System.String"
+                      description="Checksum to match component metedata against compiled codes."
+                      name="MetadataChecksum"
+                      typeConverter="NOTBROWSABLE">8346481c3468070bbe56d66fe8712523</property>
+                    <property
+                      dataType="System.String"
+                      name="UserComponentTypeName">Microsoft.ScriptComponentHost</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Postgresql Alemania\Personas\Hombres postgresql.Inputs[Input 0]"
+                      hasSideEffects="true"
+                      name="Input 0">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\Hombres postgresql.Inputs[Input 0].Columns[sexo]"
+                          cachedDataType="wstr"
+                          cachedLength="20"
+                          cachedName="sexo"
+                          lineageId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output].Columns[sexo]"
+                          usageType="readWrite" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0]"
+                      name="Output 0"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\Hombres postgresql.Inputs[Input 0]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0].Columns[Number]"
+                          codePage="1252"
+                          dataType="str"
+                          length="50"
+                          lineageId="Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0].Columns[Number]"
+                          name="Number" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Postgresql Alemania\Personas\OLE DB Destination"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="OLE DB Destination"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Persona]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[DESKTOP-2M8IR1D\SQLEXPRESS.Pruebas]"
+                      connectionManagerRefId="Package.ConnectionManagers[DESKTOP-2M8IR1D\SQLEXPRESS.Pruebas]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New givenname]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="20"
+                          cachedName="New givenname"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New givenname]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New surname]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="23"
+                          cachedName="New surname"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New surname]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New birthday]"
+                          cachedDataType="date"
+                          cachedName="New birthday"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New birthday]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New streetaddress]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="New streetaddress"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[streetaddress]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New streetaddress]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New emailaddress]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="100"
+                          cachedName="New emailaddress"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New emailaddress]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New sexo]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="1"
+                          cachedName="New sexo"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sex]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New sexo]" />
+                        <inputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[New Number]"
+                          cachedCodepage="1252"
+                          cachedDataType="str"
+                          cachedLength="50"
+                          cachedName="New Number"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
+                          lineageId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output].Columns[New Number]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[ID_cliente]"
+                          dataType="i4"
+                          name="ID_cliente" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[givenname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="20"
+                          name="givenname" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Surname]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="Surname" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[sex]"
+                          codePage="1252"
+                          dataType="str"
+                          length="1"
+                          name="sex" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[emailaddress]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="emailaddress" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[streetaddress]"
+                          codePage="1252"
+                          dataType="str"
+                          length="100"
+                          name="streetaddress" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[birthday]"
+                          dataType="dbDate"
+                          name="birthday" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[telephone]"
+                          codePage="1252"
+                          dataType="str"
+                          length="60"
+                          name="telephone" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Postgresql Alemania\Personas\Personas Pstgresql"
                   componentClassID="Microsoft.ManagedComponentHost"
                   contactInfo="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server.;Microsoft Corporation; Microsoft SQL Server; © Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
                   description="Consumes data from SQL Server, OLE DB, ODBC, or Oracle, using the corresponding .NET Framework data provider. Use a Transact-SQL statement to define the result set. For example, extract data from SQL Server with the .NET Framework data provider for SQL Server."
-                  name="ADO NET Source"
+                  name="Personas Pstgresql"
                   usesDispositions="true"
                   version="4">
                   <properties>
@@ -10666,7 +12073,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                       description="Specifies the SQL statement used by the component to extract data."
                       expressionType="Notify"
                       name="SqlCommand"
-                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">select number, givenname , surname , birthday, streetaddress,  emailaddress from personas;</property>
                     <property
                       dataType="System.Int32"
                       description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
@@ -10692,7 +12099,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   </properties>
                   <connections>
                     <connection
-                      refId="Package\Postgresql Alemania\Personas\ADO NET Source.Connections[IDbConnection]"
+                      refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Connections[IDbConnection]"
                       connectionManagerID="Package.ConnectionManagers[.postgres]"
                       connectionManagerRefId="Package.ConnectionManagers[.postgres]"
                       description="Managed connection manager"
@@ -10700,26 +12107,152 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   </connections>
                   <outputs>
                     <output
-                      refId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Output]"
+                      refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output]"
                       name="ADO NET Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[number]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[number]"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[number]"
+                          name="number"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[givenname]"
+                          length="20"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[givenname]"
+                          name="givenname"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[surname]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[surname]"
+                          length="23"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[surname]"
+                          name="surname"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[birthday]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[birthday]"
+                          length="10"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[birthday]"
+                          name="birthday"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[streetaddress]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[streetaddress]"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[streetaddress]"
+                          name="streetaddress"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[emailaddress]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[emailaddress]"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].Columns[emailaddress]"
+                          name="emailaddress"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
                       <externalMetadataColumns
-                        isUsed="True" />
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[number]"
+                          dataType="i4"
+                          name="number" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[givenname]"
+                          dataType="wstr"
+                          length="20"
+                          name="givenname" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[surname]"
+                          dataType="wstr"
+                          length="23"
+                          name="surname" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[birthday]"
+                          dataType="wstr"
+                          length="10"
+                          name="birthday" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[streetaddress]"
+                          dataType="wstr"
+                          length="100"
+                          name="streetaddress" />
+                        <externalMetadataColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output].ExternalColumns[emailaddress]"
+                          dataType="wstr"
+                          length="100"
+                          name="emailaddress" />
+                      </externalMetadataColumns>
                     </output>
                     <output
-                      refId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Error Output]"
+                      refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output]"
                       isErrorOut="true"
                       name="ADO NET Source Error Output">
                       <outputColumns>
                         <outputColumn
-                          refId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[number]"
                           dataType="i4"
-                          lineageId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[number]"
+                          name="number" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[givenname]"
+                          dataType="wstr"
+                          length="20"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[givenname]"
+                          name="givenname" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[surname]"
+                          dataType="wstr"
+                          length="23"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[surname]"
+                          name="surname" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[birthday]"
+                          dataType="wstr"
+                          length="10"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[birthday]"
+                          name="birthday" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[streetaddress]"
+                          dataType="wstr"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[streetaddress]"
+                          name="streetaddress" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[emailaddress]"
+                          dataType="wstr"
+                          length="100"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[emailaddress]"
+                          name="emailaddress" />
+                        <outputColumn
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[ErrorCode]"
                           name="ErrorCode"
                           specialFlags="1" />
                         <outputColumn
-                          refId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                          refId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                           dataType="i4"
-                          lineageId="Package\Postgresql Alemania\Personas\ADO NET Source.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
+                          lineageId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Error Output].Columns[ErrorColumn]"
                           name="ErrorColumn"
                           specialFlags="2" />
                       </outputColumns>
@@ -10728,6 +12261,28 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
                   </outputs>
                 </component>
               </components>
+              <paths>
+                <path
+                  refId="Package\Postgresql Alemania\Personas.Paths[ADO NET Source Output]"
+                  endId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Inputs[Derived Column Input]"
+                  name="ADO NET Source Output"
+                  startId="Package\Postgresql Alemania\Personas\Personas Pstgresql.Outputs[ADO NET Source Output]" />
+                <path
+                  refId="Package\Postgresql Alemania\Personas.Paths[Data Conversion Output]"
+                  endId="Package\Postgresql Alemania\Personas\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  name="Data Conversion Output"
+                  startId="Package\Postgresql Alemania\Personas\Data Conversion 1.Outputs[Data Conversion Output]" />
+                <path
+                  refId="Package\Postgresql Alemania\Personas.Paths[Derived Column Postgresql]"
+                  endId="Package\Postgresql Alemania\Personas\Hombres postgresql.Inputs[Input 0]"
+                  name="Derived Column Postgresql"
+                  startId="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Postgresql Alemania\Personas.Paths[postgresql]"
+                  endId="Package\Postgresql Alemania\Personas\Data Conversion 1.Inputs[Data Conversion Input]"
+                  name="postgresql"
+                  startId="Package\Postgresql Alemania\Personas\Hombres postgresql.Outputs[Output 0]" />
+              </paths>
             </pipeline>
           </DTS:ObjectData>
         </DTS:Executable>
@@ -10735,7 +12290,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           DTS:refId="Package\Postgresql Alemania\Tarjetas"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{3396D328-9D61-45E5-80E5-53907DD36312}"
+          DTS:DTSID="{848d32ee-390e-41b8-90ee-4f2426e5fab5}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="Tarjetas"
@@ -10743,63 +12298,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           <DTS:Variables />
           <DTS:ObjectData>
             <pipeline
-              version="1">
-              <components>
-                <component
-                  refId="Package\Postgresql Alemania\Tarjetas\Data Conversion"
-                  componentClassID="Microsoft.DataConvert"
-                  contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
-                  description="Data Conversion"
-                  name="Data Conversion"
-                  usesDispositions="true">
-                  <inputs>
-                    <input
-                      refId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Inputs[Data Conversion Input]"
-                      name="Data Conversion Input">
-                      <externalMetadataColumns />
-                    </input>
-                  </inputs>
-                  <outputs>
-                    <output
-                      refId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Output]"
-                      exclusionGroup="1"
-                      name="Data Conversion Output"
-                      synchronousInputId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Inputs[Data Conversion Input]">
-                      <externalMetadataColumns />
-                    </output>
-                    <output
-                      refId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Error Output]"
-                      exclusionGroup="1"
-                      isErrorOut="true"
-                      name="Data Conversion Error Output"
-                      synchronousInputId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Inputs[Data Conversion Input]">
-                      <outputColumns>
-                        <outputColumn
-                          refId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                          dataType="i4"
-                          lineageId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
-                          name="ErrorCode"
-                          specialFlags="1" />
-                        <outputColumn
-                          refId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                          dataType="i4"
-                          lineageId="Package\Postgresql Alemania\Tarjetas\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
-                          name="ErrorColumn"
-                          specialFlags="2" />
-                      </outputColumns>
-                      <externalMetadataColumns />
-                    </output>
-                  </outputs>
-                </component>
-              </components>
-            </pipeline>
+              version="1" />
           </DTS:ObjectData>
         </DTS:Executable>
         <DTS:Executable
           DTS:refId="Package\Postgresql Alemania\Veiculos"
           DTS:CreationName="Microsoft.Pipeline"
           DTS:Description="Data Flow Task"
-          DTS:DTSID="{62A77ECE-C675-42CC-8BD0-CB466AC98BCB}"
+          DTS:DTSID="{a398d953-fe85-44b3-ac35-ea253e54835c}"
           DTS:ExecutableType="Microsoft.Pipeline"
           DTS:LocaleID="-1"
           DTS:ObjectName="Veiculos"
@@ -10815,7 +12321,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Postgresql Alemania.PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
-          DTS:DTSID="{2D36B1B2-65B4-478A-8AE6-1983AC40E3EB}"
+          DTS:DTSID="{924e6f70-eeab-4875-90b7-87c26da25c7c}"
           DTS:From="Package\Postgresql Alemania\Personas"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
@@ -10823,7 +12329,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Postgresql Alemania.PrecedenceConstraints[Constraint 1]"
           DTS:CreationName=""
-          DTS:DTSID="{324E4681-AD3D-42E9-9952-4641BA34B4DC}"
+          DTS:DTSID="{ba707ac6-cf5b-42b3-9036-14182a1210a6}"
           DTS:From="Package\Postgresql Alemania\Execute SQL Task"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 1"
@@ -10831,7 +12337,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         <DTS:PrecedenceConstraint
           DTS:refId="Package\Postgresql Alemania.PrecedenceConstraints[Constraint 2]"
           DTS:CreationName=""
-          DTS:DTSID="{0EEC3C0C-D14C-48EB-9C1D-BA8A02AC1D8C}"
+          DTS:DTSID="{49f7a3e8-d89e-45fc-bcae-ab8074e13d4f}"
           DTS:From="Package\Postgresql Alemania\Tarjetas"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint 2"
@@ -10859,7 +12365,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     <DTS:PrecedenceConstraint
       DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
       DTS:CreationName=""
-      DTS:DTSID="{A5EFA11B-4011-434D-8392-9BDB0CD246CB}"
+      DTS:DTSID="{8D72FC24-2BD2-4FA0-912E-46A206E8B59D}"
       DTS:From="Package\Exel Brazil"
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 2"
@@ -11119,6 +12625,69 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Size="230,382"
           Id="Package\MySql Usa"
           TopLeft="100.666666666667,147.666666666667" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="194,105.75">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="21.666666666667,41.916666666667"
+              Start="0,0"
+              End="21.666666666667,34.416666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.9583333333335" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.9583333333335"
+                    Point2="0,20.9583333333335"
+                    Point3="4,20.9583333333335" />
+                  <mssgle:LineSegment
+                    End="17.666666666667,20.9583333333335" />
+                  <mssgle:CubicBezierSegment
+                    Point1="17.666666666667,20.9583333333335"
+                    Point2="21.666666666667,20.9583333333335"
+                    Point3="21.666666666667,24.9583333333335" />
+                  <mssgle:LineSegment
+                    End="21.666666666667,34.416666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="330.666666666667,339.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="111,0"
+              Start="0,0"
+              End="103.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="103.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="packege to importa data&#xA;"
+          ParentId="Package"
+          FontInfo="{assembly:Null}"
+          Size="159,56"
+          Id="ee18a7be-7311-49ce-9a2b-9106ae3cb48a"
+          TopLeft="345,61" />
         <NodeLayout
           Size="163,42"
           Id="Package\Postgresql Alemania\Execute SQL Task"
@@ -11207,77 +12776,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           PanelSize="228,349"
           Size="228,392"
           Id="Package\Postgresql Alemania"
-          TopLeft="782,142" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="194,105.75">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="21.666666666667,41.916666666667"
-              Start="0,0"
-              End="21.666666666667,34.416666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.9583333333335" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.9583333333335"
-                    Point2="0,20.9583333333335"
-                    Point3="4,20.9583333333335" />
-                  <mssgle:LineSegment
-                    End="17.666666666667,20.9583333333335" />
-                  <mssgle:CubicBezierSegment
-                    Point1="17.666666666667,20.9583333333335"
-                    Point2="21.666666666667,20.9583333333335"
-                    Point3="21.666666666667,24.9583333333335" />
-                  <mssgle:LineSegment
-                    End="21.666666666667,34.416666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="330.666666666667,339.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="111,0"
-              Start="0,0"
-              End="103.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="103.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="753.166666666667,143.5" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 2]"
-          TopLeft="675.666666666667,339.166666666667">
+          TopLeft="675.666666666667,339.916666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="106.333333333333,0"
+              EndConnector="77.5,0"
               Start="0,0"
-              End="98.833333333333,0">
+              End="70,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="98.833333333333,0" />
+                    End="70,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -11286,13 +12799,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <AnnotationLayout
-          Text="packege to importa data&#xA;"
-          ParentId="Package"
-          FontInfo="{assembly:Null}"
-          Size="159,56"
-          Id="ee18a7be-7311-49ce-9a2b-9106ae3cb48a"
-          TopLeft="345,61" />
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -11300,7 +12806,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\Exel Brazil\Personas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="144,42"
           Id="Package\Exel Brazil\Personas\Hombres Exel"
@@ -11340,7 +12846,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11374,7 +12882,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11396,7 +12906,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11430,7 +12942,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11453,11 +12967,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\Exel Brazil\Tarjetas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Exel Brazil\Tarjetas\Data Conversion"
+          TopLeft="97,273" />
         <NodeLayout
           Size="139,42"
           Id="Package\Exel Brazil\Tarjetas\Excel Source"
           TopLeft="81,26" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Exel Brazil\Tarjetas\OLE DB Destination"
+          TopLeft="90,353" />
+        <NodeLayout
+          Size="227,42"
+          Id="Package\Exel Brazil\Tarjetas\Auto Incremente y generar tipo"
+          TopLeft="80,190" />
         <NodeLayout
           Size="149,42"
           Id="Package\Exel Brazil\Tarjetas\Separar tarjeta"
@@ -11481,13 +13007,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="227,42"
-          Id="Package\Exel Brazil\Tarjetas\Auto Incremente y generar tipo"
-          TopLeft="80,190" />
         <EdgeLayout
           Id="Package\Exel Brazil\Tarjetas.Paths[Derived Column Output]"
           TopLeft="153.5,152">
@@ -11519,17 +13043,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Exel Brazil\Tarjetas\Data Conversion"
-          TopLeft="97,273" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Exel Brazil\Tarjetas\OLE DB Destination"
-          TopLeft="90,353" />
+        <EdgeLayout
+          Id="Package\Exel Brazil\Tarjetas.Paths[Data Conversion Output]"
+          TopLeft="175.25,315">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Exel Brazil\Tarjetas.Paths[Output 0]"
           TopLeft="193.5,232">
@@ -11561,29 +13103,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Exel Brazil\Tarjetas.Paths[Data Conversion Output]"
-          TopLeft="175.25,315">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,38"
-              Start="0,0"
-              End="0,30.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11621,39 +13143,21 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
       <GraphLayout
         Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="139,42"
-          Id="Package\Exel Brazil\Veiculos\Excel Source"
-          TopLeft="172,32" />
-        <NodeLayout
-          Size="163,42"
-          Id="Package\Exel Brazil\Veiculos\Script Component"
-          TopLeft="153,106" />
-        <EdgeLayout
-          Id="Package\Exel Brazil\Veiculos.Paths[Excel Source Output]"
-          TopLeft="238,74">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32"
-              Start="0,0"
-              End="0,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          Size="171,42"
+          Id="Package\Exel Brazil\Veiculos\OLE DB Destination"
+          TopLeft="146,266" />
         <NodeLayout
           Size="156,42"
           Id="Package\Exel Brazil\Veiculos\Data Conversion"
           TopLeft="144,181" />
+        <NodeLayout
+          Size="163,42"
+          Id="Package\Exel Brazil\Veiculos\Script Component"
+          TopLeft="153,106" />
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Exel Brazil\Veiculos\Excel Source"
+          TopLeft="172,32" />
         <EdgeLayout
           Id="Package\Exel Brazil\Veiculos.Paths[Output 0]"
           TopLeft="234.5,148">
@@ -11685,13 +13189,35 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Exel Brazil\Veiculos\OLE DB Destination"
-          TopLeft="146,266" />
+        <EdgeLayout
+          Id="Package\Exel Brazil\Veiculos.Paths[Excel Source Output]"
+          TopLeft="238,74">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Exel Brazil\Veiculos.Paths[Data Conversion Output]"
           TopLeft="222,223">
@@ -11761,23 +13287,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\MySql Usa\Personas MySql USA">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="121,42"
-          Id="Package\MySql Usa\Personas MySql USA\Union All"
-          TopLeft="73,302" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="187,42"
           Id="Package\MySql Usa\Personas MySql USA\Data Conversion MySql"
           TopLeft="40,227" />
         <NodeLayout
+          Size="171,42"
+          Id="Package\MySql Usa\Personas MySql USA\OLE DB Destination"
+          TopLeft="51,370" />
+        <NodeLayout
           Size="152,42"
           Id="Package\MySql Usa\Personas MySql USA\Hombres MySql"
           TopLeft="80,162" />
         <NodeLayout
-          Size="171,42"
-          Id="Package\MySql Usa\Personas MySql USA\OLE DB Destination"
-          TopLeft="51,370" />
+          Size="121,42"
+          Id="Package\MySql Usa\Personas MySql USA\Union All"
+          TopLeft="73,302" />
         <NodeLayout
           Size="152,42"
           Id="Package\MySql Usa\Personas MySql USA\MySql Personas"
@@ -11786,6 +13312,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Size="241,42"
           Id="Package\MySql Usa\Personas MySql USA\convertir fecha y crear sexo MySql"
           TopLeft="46,96" />
+        <EdgeLayout
+          Id="Package\MySql Usa\Personas MySql USA.Paths[Union All Output 1]"
+          TopLeft="135,344">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\MySql Usa\Personas MySql USA.Paths[Mysql]"
           TopLeft="156,204">
@@ -11817,41 +13367,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\MySql Usa\Personas MySql USA.Paths[ADO NET Source Output]"
-          TopLeft="109.821428571429,62.7857142857143">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="41.1785714285714,33.2142857142857"
-              Start="0,0"
-              End="41.1785714285714,25.7142857142857">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.6071428571429" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.6071428571429"
-                    Point2="0,16.6071428571429"
-                    Point3="4,16.6071428571429" />
-                  <mssgle:LineSegment
-                    End="37.1785714285714,16.6071428571429" />
-                  <mssgle:CubicBezierSegment
-                    Point1="37.1785714285714,16.6071428571429"
-                    Point2="41.1785714285714,16.6071428571429"
-                    Point3="41.1785714285714,20.6071428571429" />
-                  <mssgle:LineSegment
-                    End="41.1785714285714,25.7142857142857" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11885,29 +13403,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\MySql Usa\Personas MySql USA.Paths[Union All Output 1]"
-          TopLeft="135,344">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26"
-              Start="0,0"
-              End="0,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -11929,7 +13427,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\MySql Usa\Personas MySql USA.Paths[ADO NET Source Output]"
+          TopLeft="109.821428571429,62.7857142857143">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="41.1785714285714,33.2142857142857"
+              Start="0,0"
+              End="41.1785714285714,25.7142857142857">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.6071428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.6071428571429"
+                    Point2="0,16.6071428571429"
+                    Point3="4,16.6071428571429" />
+                  <mssgle:LineSegment
+                    End="37.1785714285714,16.6071428571429" />
+                  <mssgle:CubicBezierSegment
+                    Point1="37.1785714285714,16.6071428571429"
+                    Point2="41.1785714285714,16.6071428571429"
+                    Point3="41.1785714285714,20.6071428571429" />
+                  <mssgle:LineSegment
+                    End="41.1785714285714,25.7142857142857" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -11939,61 +13475,27 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\MySql Usa\Tarjetas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="227,42"
-          Id="Package\MySql Usa\Tarjetas\Auto Incremente y generar tipo"
-          TopLeft="92,203" />
-        <NodeLayout
-          Size="230,42"
-          Id="Package\MySql Usa\Tarjetas\Hallar Valor diferenciador MYSql"
-          TopLeft="60,129" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="180,42"
           Id="Package\MySql Usa\Tarjetas\OLE DB Destination 1"
           TopLeft="52,370" />
         <NodeLayout
-          Size="156,42"
-          Id="Package\MySql Usa\Tarjetas\Data Conversion"
-          TopLeft="112,271" />
+          Size="230,42"
+          Id="Package\MySql Usa\Tarjetas\Hallar Valor diferenciador MYSql"
+          TopLeft="60,129" />
         <NodeLayout
           Size="148,42"
           Id="Package\MySql Usa\Tarjetas\MySql Tarjetas"
           TopLeft="69,60" />
-        <EdgeLayout
-          Id="Package\MySql Usa\Tarjetas.Paths[Output con tipo y idcliente]"
-          TopLeft="205.5,245">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-15.5,26"
-              Start="0,0"
-              End="-15.5,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,9" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,9"
-                    Point2="0,13"
-                    Point3="-4,13" />
-                  <mssgle:LineSegment
-                    End="-11.5,13" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-11.5,13"
-                    Point2="-15.5,13"
-                    Point3="-15.5,17" />
-                  <mssgle:LineSegment
-                    End="-15.5,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+        <NodeLayout
+          Size="227,42"
+          Id="Package\MySql Usa\Tarjetas\Auto Incremente y generar tipo"
+          TopLeft="92,203" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\MySql Usa\Tarjetas\Data Conversion"
+          TopLeft="112,271" />
         <EdgeLayout
           Id="Package\MySql Usa\Tarjetas.Paths[ADO NET Source Output]"
           TopLeft="143,102">
@@ -12025,41 +13527,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\MySql Usa\Tarjetas.Paths[Data Conversion Output]"
-          TopLeft="190,313">
+          Id="Package\MySql Usa\Tarjetas.Paths[Output con tipo y idcliente]"
+          TopLeft="205.5,245">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-48,57"
+              EndConnector="-15.5,26"
               Start="0,0"
-              End="-48,49.5">
+              End="-15.5,18.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,24.5" />
+                    End="0,9" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,24.5"
-                    Point2="0,28.5"
-                    Point3="-4,28.5" />
+                    Point1="0,9"
+                    Point2="0,13"
+                    Point3="-4,13" />
                   <mssgle:LineSegment
-                    End="-44,28.5" />
+                    End="-11.5,13" />
                   <mssgle:CubicBezierSegment
-                    Point1="-44,28.5"
-                    Point2="-48,28.5"
-                    Point3="-48,32.5" />
+                    Point1="-11.5,13"
+                    Point2="-15.5,13"
+                    Point3="-15.5,17" />
                   <mssgle:LineSegment
-                    End="-48,49.5" />
+                    End="-15.5,18.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -12093,7 +13599,45 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\MySql Usa\Tarjetas.Paths[Data Conversion Output]"
+          TopLeft="190,313">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-48,57"
+              Start="0,0"
+              End="-48,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.5"
+                    Point2="0,28.5"
+                    Point3="-4,28.5" />
+                  <mssgle:LineSegment
+                    End="-44,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-44,28.5"
+                    Point2="-48,28.5"
+                    Point3="-48,32.5" />
+                  <mssgle:LineSegment
+                    End="-48,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12116,15 +13660,15 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\MySql Usa\Veiculos">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="180,42"
-          Id="Package\MySql Usa\Veiculos\OLE DB Destination 2"
-          TopLeft="60,301" />
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="148,42"
           Id="Package\MySql Usa\Veiculos\MySql Veiculos"
           TopLeft="71,60" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\MySql Usa\Veiculos\OLE DB Destination 2"
+          TopLeft="60,301" />
         <NodeLayout
           Size="165,42"
           Id="Package\MySql Usa\Veiculos\Data Conversion 1"
@@ -12133,50 +13677,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
           Size="163,42"
           Id="Package\MySql Usa\Veiculos\Script Component"
           TopLeft="63,126" />
-        <EdgeLayout
-          Id="Package\MySql Usa\Veiculos.Paths[ADO NET Source Output]"
-          TopLeft="144.75,102">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,24"
-              Start="0,0"
-              End="0,16.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\MySql Usa\Veiculos.Paths[Data Conversion ??????]"
-          TopLeft="152.75,247">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,54"
-              Start="0,0"
-              End="0,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
         <EdgeLayout
           Id="Package\MySql Usa\Veiculos.Paths[Output Random color]"
           TopLeft="144.5,168">
@@ -12208,7 +13708,57 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\MySql Usa\Veiculos.Paths[Data Conversion ??????]"
+          TopLeft="152.75,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,54"
+              Start="0,0"
+              End="0,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\MySql Usa\Veiculos.Paths[ADO NET Source Output]"
+          TopLeft="144.75,102">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,24"
+              Start="0,0"
+              End="0,16.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -12218,22 +13768,154 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
     design-time-name="Package\Postgresql Alemania\Personas">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="158,42"
-          Id="Package\Postgresql Alemania\Personas\ADO NET Source"
-          TopLeft="181,73" />
+          Size="173,42"
+          Id="Package\Postgresql Alemania\Personas\Hombres postgresql"
+          TopLeft="114,190" />
+        <NodeLayout
+          Size="167,42"
+          Id="Package\Postgresql Alemania\Personas\Personas Pstgresql"
+          TopLeft="101,24" />
+        <NodeLayout
+          Size="261,42"
+          Id="Package\Postgresql Alemania\Personas\convertir fecha y crear sexo Postgresql"
+          TopLeft="69,110" />
+        <NodeLayout
+          Size="165,42"
+          Id="Package\Postgresql Alemania\Personas\Data Conversion 1"
+          TopLeft="106,257" />
+        <EdgeLayout
+          Id="Package\Postgresql Alemania\Personas.Paths[ADO NET Source Output]"
+          TopLeft="184.5,66">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="15,44"
+              Start="0,0"
+              End="15,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18"
+                    Point2="0,22"
+                    Point3="4,22" />
+                  <mssgle:LineSegment
+                    End="11,22" />
+                  <mssgle:CubicBezierSegment
+                    Point1="11,22"
+                    Point2="15,22"
+                    Point3="15,26" />
+                  <mssgle:LineSegment
+                    End="15,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Postgresql Alemania\Personas.Paths[Derived Column Postgresql]"
+          TopLeft="200,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,38"
+              Start="0,0"
+              End="0,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Postgresql Alemania\Personas.Paths[postgresql]"
+          TopLeft="200.5,232">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-12,25"
+              Start="0,0"
+              End="-12,17.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.5"
+                    Point2="0,12.5"
+                    Point3="-4,12.5" />
+                  <mssgle:LineSegment
+                    End="-8,12.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-8,12.5"
+                    Point2="-12,12.5"
+                    Point3="-12,16.5" />
+                  <mssgle:LineSegment
+                    End="-12,17.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Postgresql Alemania\Personas\OLE DB Destination"
+          TopLeft="136,348" />
+        <EdgeLayout
+          Id="Package\Postgresql Alemania\Personas.Paths[Data Conversion Output]"
+          TopLeft="188.5,299">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="33,49"
+              Start="0,0"
+              End="33,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.5"
+                    Point2="0,24.5"
+                    Point3="4,24.5" />
+                  <mssgle:LineSegment
+                    End="29,24.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29,24.5"
+                    Point2="33,24.5"
+                    Point3="33,28.5" />
+                  <mssgle:LineSegment
+                    End="33,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Postgresql Alemania\Personas\ADO NET Source">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Postgresql Alemania\Tarjetas">
     <LayoutInfo>
@@ -12241,10 +13923,23 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
         <NodeLayout
           Size="156,42"
-          Id="Package\Postgresql Alemania\Tarjetas\Data Conversion"
+          Id="2"
           TopLeft="75,134" />
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Postgresql Alemania\Personas\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
 </Objects>]]></DTS:DesignTimeProperties>
 </DTS:Executable>
